@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: #222034;
+    overflow-y: scroll;
+}
+
+main {
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    outline: white 3px solid;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+h1, h2, p, li, ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+li, ul {
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 35%
+}
+
+ul > ul {
+    margin-left: 10px;
+}
+
+.decor {
+    background-image: url("img/decor.png");
+    background-repeat: repeat-y;
+    background-size: 40%;
+    image-rendering: crisp-edges;
+}
+
+.decor.left {
+    background-position: left;
+}
+
+.decor.right {
+    transform:scaleX(-1);
+}
+
+code {
+    background-color: grey;
+}
+
+.memes {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.memes > img{
+    max-width: 100%;
+}
