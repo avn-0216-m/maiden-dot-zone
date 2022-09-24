@@ -28,9 +28,9 @@ li, ul {
     font-size: 20px;
 }
 
-ul {
+/* ul {
     margin-left: 35%
-}
+} */
 
 ul > ul {
     margin-left: 10px;
@@ -66,4 +66,10 @@ code {
 
 .memes > img{
     max-width: 100%;
+}
+
+main > div {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
 }
