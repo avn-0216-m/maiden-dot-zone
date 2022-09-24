@@ -19,7 +19,7 @@ main > h1 {
     text-align: center;
 }
 
-h1, h2, p, li, ul {
+h1, h2, p, li, ul, label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
 }
