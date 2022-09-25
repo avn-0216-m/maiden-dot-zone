@@ -68,8 +68,12 @@ code {
     max-width: 100%;
 }
 
-main > div {
+main > div.contents {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+}
+
+.centered {
+    text-align: center;
 }
