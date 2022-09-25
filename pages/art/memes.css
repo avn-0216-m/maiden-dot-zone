@@ -1,0 +1,8 @@
+.memes {
+    text-align: center;
+}
+
+
+.memes > div > img {
+    max-height: 300px;
+}
