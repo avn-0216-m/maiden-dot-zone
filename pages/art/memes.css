@@ -4,5 +4,6 @@
 
 
 .memes > div > img {
+    margin-top: 1%;
     max-height: 300px;
 }
