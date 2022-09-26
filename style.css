@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 100%;
     background-color: #222034;
     overflow-y: scroll;
 }
@@ -14,6 +13,7 @@ main {
     overflow: auto;
     outline: white 3px solid;
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 header {
@@ -53,7 +53,7 @@ article {
     transform:scaleX(-1);
 }
 
-main > div.contents {
+main > article > div.contents {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
@@ -70,7 +70,7 @@ footer {
     body {
         display: block;
     }
-    main > div.contents {
+    main > article > div.contents {
         width: 100%;
     }
     main {
@@ -82,6 +82,7 @@ footer {
         background-repeat: repeat-x;
         background-size:5%;
         image-rendering: crisp-edges;
+        margin-top: 0%;
     }
     /* footer {
         display: block;
