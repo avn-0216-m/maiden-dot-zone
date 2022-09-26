@@ -56,7 +56,7 @@ main > div.contents {
     width: 50%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 450px){
     .decor {
         display:none !important;
     }
