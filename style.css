@@ -83,3 +83,7 @@ img {
 hr {
     color: white;
 }
+
+.longtext {
+    white-space: pre-line;
+}
