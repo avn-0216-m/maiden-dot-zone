@@ -11,6 +11,7 @@ body {
 main {
     padding: 1%;
     margin: 1%;
+    height: 100%;
     outline: white 3px solid;
 }
 
