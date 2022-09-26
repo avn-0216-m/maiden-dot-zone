@@ -1,17 +1,19 @@
 body {
     margin: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
     background-color: #222034;
     overflow-y: scroll;
 }
 
 main {
-    padding: 1%;
+    display: block;
+    overflow: auto;
     margin: 1%;
-    height: 100%;
+    padding: 0% 1% 0% 1%;
     outline: white 3px solid;
 }
 
@@ -43,21 +45,21 @@ a {
     image-rendering: crisp-edges;
 }
 
-.decor.left {
-    background-position: left;
-}
-
 .decor.right {
     transform:scaleX(-1);
 }
 
-main > div.contents {
+/* main > div.contents {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+} */
+
+footer {
+    display:none;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
     .decor {
         display:none !important;
     }
@@ -67,6 +69,24 @@ main > div.contents {
     main > div.contents {
         width: 100%;
     }
+    main {
+        padding-bottom: 20%;
+        display: block;
+        overflow: auto;
+        background-image: url("img/decor2.png") !important;
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size:5%;
+        image-rendering: crisp-edges;
+    }
+    /* footer {
+        display: block;
+        height:30%;
+        width:100%;
+        top: 0%;
+        display: block !important;
+
+    } */
 }
 
 code {
@@ -81,10 +101,7 @@ img {
     max-width: 100%;
 }
 
-hr {
-    color: white;
-}
-
 .story {
     white-space: pre-line;
+    padding: 0% 1% 0% 1%;
 }
