@@ -49,11 +49,11 @@ a {
     transform:scaleX(-1);
 }
 
-/* main > div.contents {
+main > div.contents {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
-} */
+}
 
 footer {
     display:none;
