@@ -12,9 +12,8 @@ body {
 main {
     display: block;
     overflow: auto;
-    margin: 1%;
-    padding: 0% 1% 0% 1%;
     outline: white 3px solid;
+    margin-bottom: 1%;
 }
 
 header {
@@ -36,6 +35,11 @@ ul > ul {
 
 a {
     color:#5FCDE4;
+}
+
+article {
+    margin: 1%;
+    padding: 0% 1% 0% 1%;
 }
 
 .decor {
