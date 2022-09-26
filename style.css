@@ -14,7 +14,7 @@ main {
     outline: white 3px solid;
 }
 
-main > h1 {
+header {
     text-align: center;
 }
 
