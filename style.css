@@ -3,15 +3,14 @@ body {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 10% 80% 10%;
     background-color: #222034;
     overflow-y: scroll;
 }
 
 main {
     padding: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin: 1%;
     outline: white 3px solid;
 }
 
@@ -53,6 +52,15 @@ a {
 
 .decor.right {
     transform:scaleX(-1);
+}
+
+@media screen and (max-width: 600px){
+    .decor {
+        display:none !important;
+    }
+    body {
+        display: block;
+    }
 }
 
 code {
