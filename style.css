@@ -27,10 +27,6 @@ li, ul {
     font-size: 20px;
 }
 
-/* ul {
-    margin-left: 35%
-} */
-
 ul > ul {
     margin-left: 10px;
 }
@@ -54,6 +50,12 @@ a {
     transform:scaleX(-1);
 }
 
+main > div.contents {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
 @media screen and (max-width: 600px){
     .decor {
         display:none !important;
@@ -61,16 +63,13 @@ a {
     body {
         display: block;
     }
+    main > div.contents {
+        width: 100%;
+    }
 }
 
 code {
     background-color: grey;
-}
-
-main > div.contents {
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
 }
 
 .centered {
