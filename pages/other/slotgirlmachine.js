@@ -31,7 +31,11 @@ const init = () => {
 
     // init random words
     realBlogs.forEach(blog => {
-        blog.split("").forEach((word, index) => {
+        console.log("Real blog name:")
+        console.log(blog)
+        blog.split(" ").forEach((word, index) => {
+            console.log("Real blog word:")
+            console.log(word);
             if(!blogNames[index].includes(word)){
                 blogNames[index].push(word);
             }
