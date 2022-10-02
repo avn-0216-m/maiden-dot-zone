@@ -92,11 +92,6 @@ const start = () => {
 }
 
 const getName = () => {
-
-    if(spins > 5){
-        return ["dragon", "boy", "pussy"];
-    }
-
     return [
         getRandomWord(0),
         getRandomWord(1),
