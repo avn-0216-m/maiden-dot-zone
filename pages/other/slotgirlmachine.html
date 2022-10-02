@@ -1,16 +1,36 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="slotgirlmachine.css">
+        <script src="slotgirlmachine.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <audio src="/audio/slot/slot_click.mp3" id="sound_click" onended="spin()"></audio>
+        <audio src="/audio/slot/slot_spin.mp3" id="sound_spin" onended="result()"></audio>
+        <audio src="/audio/slot/slot_lose.mp3" id="sound_lose" onended="finish()"></audio>
+        <audio src="/audio/slot/slot_win.mp3" id="sound_win" onended="finish()"></audio>
+        <audio src="/audio/slot/slot_reveal_1.mp3" id="sound_reveal_1"></audio>
+        <audio src="/audio/slot/slot_reveal_2.mp3" id="sound_reveal_2"></audio>
+        <audio src="/audio/slot/slot_reveal_3.mp3" id="sound_reveal_3"></audio>
     </head>
     <body>
-        <aside class="decor left"></aside>
-        <main>
-            <header>
-                <h1>Welcome to the <a href="/index.html">Maiden Zone</a></h1>
-                <p>Coming soon. Check back later.</p>
-            </header>
-        </main>
-        <aside class="decor right"></aside>
+        <div class = "slots">
+            <div class = "display">
+                <img id = "bulb1" src="/img/slot/bulb.png">
+                <div class = "column" id = "column1">
+                    <p id = "spinner1">slot</p>
+                </div>
+                <div class = "column" id = "column2">
+                    <p id = "spinner2">girl</p>
+                </div>
+                <div class = "column" id = "column3">
+                    <p id = "spinner3">machine</p>
+                </div>
+                <img id = "bulb2" src="/img/slot/bulb.png">
+            </div>
+            <div class = "center">
+                <img id = "lever" src="/img/slot/lever.png" onclick="start()">
+            </div>
+        </div>
+        
     </body>
-</html>
+<script>init()</script>

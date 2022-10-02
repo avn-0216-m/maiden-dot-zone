@@ -1,0 +1,45 @@
+/* if you dont remember this, which by god i hope you do. use exact pixel values. do it do it do it. they scale with the viewport. 
+to figure out the animation top transition end point, multiply the line height (18px) by the number of lines.*/
+
+img{
+    width: 100px;
+}
+
+p{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    white-space: pre-line;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.slots > .display {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 560px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 560px;
+}
+
+.slots > {
+    width: fit-content;
+    text-align: center;
+}
+
+.column {
+    width: 100px;
+    margin: 10px;
+    border-radius: 3px;
+    outline: 3px solid black;
+    display:absolute;
+    height: 20px;
+    line-height: 18px;
+    overflow: hidden;
+}

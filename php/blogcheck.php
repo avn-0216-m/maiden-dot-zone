@@ -9,5 +9,9 @@ curl_setopt($req, CURLOPT_NOBODY, true);
 curl_setopt($req, CURLOPT_RETURNTRANSFER, true);
 curl_exec($req);
 
-echo(curl_getinfo($req, CURLINFO_HTTP_CODE) == "200");
+if(curl_getinfo($req, CURLINFO_HTTP_CODE) == "200"){
+    echo 1;
+} else {
+    echo 0;
+}
 ?>
