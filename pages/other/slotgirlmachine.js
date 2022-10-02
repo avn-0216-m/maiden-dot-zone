@@ -93,6 +93,11 @@ const start = () => {
 }
 
 const getName = () => {
+
+    if(spins >= 5){
+        return realBlogs[Math.floor(Math.random() * realBlogs.length)].split(" ");
+    }
+
     return [
         getRandomWord(0),
         getRandomWord(1),
