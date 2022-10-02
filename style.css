@@ -20,9 +20,13 @@ header {
     text-align: center;
 }
 
-h1, h2, p, li, ul, label {
+h1, h2, p, li, ul, label, summary {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
+}
+
+summary {
+    font-size: 30px;
 }
 
 li, ul {
@@ -54,9 +58,11 @@ article {
 }
 
 main > article > div.contents {
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
+    margin-left: 30%;
+}
+
+details > ul {
+    margin: 0;
 }
 
 footer {
@@ -72,6 +78,7 @@ footer {
     }
     main > article > div.contents {
         width: 100%;
+        margin-left: 0;
     }
     main {
         padding-bottom: 20%;
