@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-h1, h2, p, li, ul, label, summary {
+h1, h2, p, li, ul, label, summary, pre {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
 }
