@@ -7,7 +7,8 @@ var realBlogs = [
     "cat girl bionics", "cat girl baeddel", "cat girl viscera", "cat femboy foreskin",
     "cat girl foreskin", "dog girl breasts", "dog boy deathgrips", "puppy girl lasagna",
     "dog girl hen", "cat girl void", "cheetah girl muscles", "foot paw fetish", "dragon girl snout",
-    "puppy girl knot", "puppy girl dick", "cat girl pillow", "cat girl dick"
+    "puppy girl knot", "puppy girl dick", "cat girl pillow", "cat girl dick", "sheep girl bleats",
+    "cat girl pussy", "monster girl precum", "dog boy coochie", "boy toy faun", "deer girl dick"
 ]
 
 var spinning = false;
