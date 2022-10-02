@@ -4,11 +4,11 @@ var blogNames = [[],[],[]]
 var realBlogs = [
     "slime girl witch", "dragon girl knot", "dragon boy pussy", "shark girl dicks",
     "deer girl antlers", "cat girl asscheeks", "cat girl communism", "cat boy moments",
-    "cat girl bionics", "cat girl baeddel", "cat girl viscera", "cat femboy foreskin",
+    "cat girl bionics", "cat girl viscera", "cat femboy foreskin", "deer girl dick",
     "cat girl foreskin", "dog girl breasts", "dog boy deathgrips", "puppy girl lasagna",
     "dog girl hen", "cat girl void", "cheetah girl muscles", "dragon girl snout", "puppy girl knot", 
     "puppy girl dick", "cat girl pillow", "cat girl dick", "sheep girl bleats", "cat girl pussy", 
-    "monster girl precum", "dog boy coochie", "boy toy faun", "deer girl dick"
+    "monster girl precum", "dog boy coochie", "boy toy faun"
 ]
 
 var spinning = false;
