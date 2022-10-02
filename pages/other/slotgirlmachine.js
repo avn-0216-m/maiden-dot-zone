@@ -1,9 +1,13 @@
 var blogFound = false
 var blogName = ["slot", "girl", "machine"];
-var blogNames = [
-    ["cat", "possum", "dog", "puppy", "dragon", "mouse"], 
-    ["girl", "boy"], 
-    ["deathgrips", "ing", "dick", "paws", "feet", "toes", "lasagna", "foreskin", "knot", "pussy", "ears", "fluff", "maw", "cloaca", "tongue", "breasts", "tits", "boobs", "tummy", "teeth", "fangs", "cunt", "tail", "snout", "cock", "penis", "titties", "friend", "pillow", "piss"]
+var blogNames = [[],[],[]]
+var realBlogs = [
+    "slime girl witch", "dragon girl knot", "dragon boy pussy", "shark girl dicks",
+    "deer girl antlers", "cat girl asscheeks", "cat girl communism", "cat boy moments",
+    "cat girl bionics", "cat girl baeddel", "cat girl viscera", "cat femboy foreskin",
+    "cat girl foreskin", "dog girl breasts", "dog boy deathgrips", "puppy girl lasagna",
+    "dog girl hen", "cat girl void", "cheetah girl muscles", "foot paw fetish", "dragon girl snout",
+    "puppy girl knot", "puppy girl dick", "cat girl pillow", "cat girl dick"
 ]
 
 var spinning = false;
@@ -24,6 +28,18 @@ const init = () => {
     // Grabs elements after they've loaded
     spinners = [document.getElementById("spinner1"), document.getElementById("spinner2"), document.getElementById("spinner3")]
     revealSounds = [document.getElementById("sound_reveal_1"), document.getElementById("sound_reveal_2"), document.getElementById("sound_reveal_3")]
+
+    // init random words
+    realBlogs.forEach(blog => {
+        blog.split.forEach((word, index) => {
+            if(!blogNames[index].includes(word)){
+                blogNames[index].push(word);
+            }
+        })
+    })
+
+    console.log("Blog names loaded.")
+    console.log(blogNames);
 
     // init spinner text
     spinners.forEach((spinner, index) => {
