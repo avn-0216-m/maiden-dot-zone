@@ -1,7 +1,8 @@
 <html>
     <head>
-        <link rel="stylesheet" href="slotgirlmachine.css">
         <script src="slotgirlmachine.js"></script>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="slotgirlmachine.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <audio src="/audio/slot/slot_click.mp3" id="sound_click" onended="spin()"></audio>
@@ -13,24 +14,36 @@
         <audio src="/audio/slot/slot_reveal_3.mp3" id="sound_reveal_3"></audio>
     </head>
     <body>
-        <div class = "slots">
-            <div class = "display">
-                <img id = "bulb1" src="/img/slot/bulb.png">
-                <div class = "column" id = "column1">
-                    <p id = "spinner1">slot</p>
+        <aside class="decor left"></aside>
+        <main>
+            <article>
+                <header>
+                    <h1>Welcome to the <a href="/index.html">Maiden Zone</a></h1>
+
+                </header>
+                <div class = "slotmachine">
+                    <div class = "display">
+                        <img id = "bulb1" src="/img/slot/bulb.png">
+                        <div class = "spinners">
+                            <div class = "column" id = "column1">
+                                <p id = "spinner1">slot</p>
+                            </div>
+                            <div class = "column" id = "column2">
+                                <p id = "spinner2">girl</p>
+                            </div>
+                            <div class = "column" id = "column3">
+                                <p id = "spinner3">machine</p>
+                            </div>
+                        </div>
+                        <img id = "bulb2" src="/img/slot/bulb.png">
+                    </div>
                 </div>
-                <div class = "column" id = "column2">
-                    <p id = "spinner2">girl</p>
+                <div class = "display">
+                    <img id = "lever" src="/img/slot/lever.png" onclick="start()">
                 </div>
-                <div class = "column" id = "column3">
-                    <p id = "spinner3">machine</p>
-                </div>
-                <img id = "bulb2" src="/img/slot/bulb.png">
-            </div>
-            <div class = "center">
-                <img id = "lever" src="/img/slot/lever.png" onclick="start()">
-            </div>
-        </div>
-        
+            </article>
+        </main>
+        <aside class="decor right"></aside>
     </body>
-<script>init()</script>
+    <script>init()</script>
+</html>

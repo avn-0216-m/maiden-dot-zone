@@ -16,7 +16,7 @@ var spins = 0;
 
 var spinners = [];
 var wordsPerSpinner = 30;
-var textHeight = 18;
+var textHeight = 20;
 
 /* unused but would be tidier way of linking everything together */
 var spinner = {

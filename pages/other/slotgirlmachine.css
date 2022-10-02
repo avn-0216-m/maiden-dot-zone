@@ -15,31 +15,51 @@ p{
     text-align: center;
 }
 
-.slots > .display {
+.imgcontainer {
+    max-width: 50px;
+}
+
+.display {
     display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 560px;
-}
-
-.center {
-    display: flex;
     justify-content: center;
-    width: 560px;
+    align-items: center;
+    width: 100%;
 }
 
-.slots > {
+.spinners {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     width: fit-content;
-    text-align: center;
 }
 
 .column {
     width: 100px;
+    max-width: 100px;
     margin: 10px;
     border-radius: 3px;
     outline: 3px solid black;
     display:absolute;
-    height: 20px;
-    line-height: 18px;
+    height: 22px;
+    line-height: 20px;
     overflow: hidden;
+    background-color: #201f2b;
+}
+
+@media screen and (max-width: 600px){
+
+    #bulb1, #bulb2{
+        display:inline-block;
+    }
+
+    #lever {
+        width: 100px;
+    }
+
+    .spinners {
+        grid-template-columns: 100%;
+    }
+
+    .column {
+        width: 100vw;
+    }
 }
