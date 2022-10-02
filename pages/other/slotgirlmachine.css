@@ -45,7 +45,7 @@ p{
     background-color: #201f2b;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 450px){
 
     #bulb1, #bulb2{
         display:inline-block;
