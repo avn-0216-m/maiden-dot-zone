@@ -31,19 +31,12 @@ const init = () => {
 
     // init random words
     realBlogs.forEach(blog => {
-        console.log("Real blog name:")
-        console.log(blog)
         blog.split(" ").forEach((word, index) => {
-            console.log("Real blog word:")
-            console.log(word);
             if(!blogNames[index].includes(word)){
                 blogNames[index].push(word);
             }
         })
     })
-
-    console.log("Blog names loaded.")
-    console.log(blogNames);
 
     // init spinner text
     spinners.forEach((spinner, index) => {
@@ -55,15 +48,12 @@ const init = () => {
 
 const setSpinLength = () => {
     document.styleSheets[0].insertRule(`p.spin { top: -${textHeight * wordsPerSpinner}px }`, 0);
-    console.log(document.styleSheets);
     spinners.forEach((spinner) => {
         spinner.style.top = -textHeight * wordsPerSpinner;
     })
 }
 
-const generateSpinnerText = (index, loop, endWord) => {
-
-    console.log("Generating spinner text.");
+const generateSpinnerText = (index, endWord) => {
 
     let arr = []
 
@@ -71,13 +61,7 @@ const generateSpinnerText = (index, loop, endWord) => {
         arr.push(getRandomWord(index));
     }
 
-    if(loop){
-        console.log("looping text")
-        console.log(arr)
-        console.log(spinners[index].innerText.split("\n"))
-        arr[0] = spinners[index].innerText.split("\n")[wordsPerSpinner]
-    }
-
+    arr[0] = spinners[index].innerText.split("\n")[wordsPerSpinner]
     arr[wordsPerSpinner] = endWord;
 
     return arr.join("\n")
@@ -97,7 +81,7 @@ const start = () => {
     blogName = getName();
 
     spinners.forEach((spinner, index) => {
-        spinner.innerText = generateSpinnerText(index, true, blogName[index]);
+        spinner.innerText = generateSpinnerText(index, blogName[index]);
     })
 
     spinners.forEach(spinner => {
@@ -123,8 +107,6 @@ const getName = () => {
 const spin = () => {
 
     blogFound = false;
-
-    console.log("Name: " + blogName);
 
     document.getElementById("sound_spin").play();
     spinners.forEach((spinner, index) => {
