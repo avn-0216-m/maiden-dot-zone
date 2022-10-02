@@ -114,7 +114,7 @@ const spin = () => {
     });
     setSpinLength();
 
-    fetch(`http://localhost:8000/php/blogcheck.php?name=${blogName.join('')}`)
+    fetch(`http://maiden.zone/php/blogcheck.php?name=${blogName.join('')}`)
     .then(resp => resp.json())
     .then(data => {blogFound = (data == 1)});
 }
