@@ -31,7 +31,7 @@ const init = () => {
 
     // init random words
     realBlogs.forEach(blog => {
-        blog.split.forEach((word, index) => {
+        blog.split("").forEach((word, index) => {
             if(!blogNames[index].includes(word)){
                 blogNames[index].push(word);
             }
