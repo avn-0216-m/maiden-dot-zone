@@ -7,8 +7,8 @@ var realBlogs = [
     "cat girl bionics", "cat girl viscera", "cat femboy foreskin", "deer girl dick",
     "cat girl foreskin", "dog girl breasts", "dog boy deathgrips", "puppy girl lasagna",
     "dog girl hen", "cat girl void", "cheetah girl muscles", "dragon girl snout", "puppy girl knot", 
-    "puppy girl dick", "cat girl pillow", "cat girl dick", "sheep girl bleats", "cat girl pussy", 
-    "monster girl precum", "dog boy coochie", "boy toy faun"
+    "puppy girl dick", "cat girl pillow", "cat girl dick", "cat girl pussy", "boy toy faun",
+    "monster girl precum", "dog boy coochie", 
 ]
 
 var spinning = false;
@@ -18,12 +18,6 @@ var spins = 0;
 var spinners = [];
 var wordsPerSpinner = 30;
 var textHeight = 20;
-
-/* unused but would be tidier way of linking everything together */
-var spinner = {
-    stopSound: null,
-    paragraph: null,
-}
 
 const init = () => {
     // Grabs elements after they've loaded
