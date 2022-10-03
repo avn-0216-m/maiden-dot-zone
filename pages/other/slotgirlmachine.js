@@ -8,7 +8,9 @@ var realBlogs = [
     "cat girl foreskin", "dog girl breasts", "dog boy deathgrips", "puppy girl lasagna",
     "dog girl hen", "cat girl void", "cheetah girl muscles", "dragon girl snout", "puppy girl knot", 
     "puppy girl dick", "cat girl pillow", "cat girl dick", "cat girl pussy", "boy toy faun",
-    "monster girl precum", "dog boy coochie", 
+    "monster girl precum", "dog boy coochie", "bunny girl cock", "goat girl balls", "cat girl cockunions",
+    "rat girl dick", "bunny girl skull", "dragon girl paws", "dragon girl tum", "dragon girl titties",
+    "dragon girl tongue", "cat girl rosa"
 ]
 
 var spinning = false;
