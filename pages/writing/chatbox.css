@@ -1,0 +1,43 @@
+.outline {
+    outline: 1px solid black;
+}
+
+.chatbox {
+    display: grid;
+    grid-template-rows: 8% 84% 8%;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+}
+
+.chatbox-header {
+    width: 100%;
+    background: #5FCDE4;
+}
+
+.chatbox-header > p {
+    margin: 1%;
+    white-space: normal;
+    font-family: none;
+
+}
+
+.chatbox-header > p {
+    float: left;
+}
+
+.chatbox-header > p.window-options {
+    float: right;
+}
+.chatbox-text {
+    margin: 1%;
+    font-size: 10px;
+    color: black;
+    overflow-y: scroll;
+    line-height: 11px;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+}

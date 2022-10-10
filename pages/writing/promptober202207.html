@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="chatbox.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="chatbox.js"></script>
+        <audio src="/audio/pester.mp3" id="sfx"></audio>
+    </head>
+    <body>
+        <aside class="decor left"></aside>
+        <main>
+            <article>
+                <header>
+                    <h1>Welcome to the <a href="/index.html">Maiden Zone</a></h1>
+                    <p>Ghosting</p>
+                    <p>Promptober 2022, day 6.</p>
+                </header>
+                <div class="story">
+                    <div class="chatbox outline">
+                        <div class="chatbox-header outline">
+                            <p>Chatting with: maiden (Online)</p>
+                            <p class="window-options">_ &#9633; X</p>
+                        </div>
+                        <p class="chatbox-text" id="chatbox-text">-- maiden is now online. --</p>
+                        <input type="text" id="chatbox-input" placeholder="Enter message..."></input>
+                    </div>
+                </div>
+                <script>init()</script>
+            </article>
+        </main>
+        <aside class="decor right"></aside>
+    </body>
+</html>
