@@ -87,4 +87,4 @@ async def on_ready():
     print("Done. :)")
                     
 
-client.run('MTA5MDAwMjgzNjM4MjgxMDMxNQ.GbBwYE.NGQii9VPVJWEBs0MPd90cac365pefVmvYG2hzA')
+client.run('')
