@@ -28,7 +28,7 @@ Grey:
           - Cutscene 2
           - Cutscene 3
         Steps:
-          Stairs: 'R A L x 3 A L x 3 D'
+          Stairs: 'R A Lx3 A Lx3 D'
         Dialogue:
           Rod Acquired:
             - Empty:
@@ -37,7 +37,7 @@ Grey:
                 - '[Something is wrong]'
       - Floor: '003'
         Steps:
-          Chest: R x 5 U x 3 R x 3 U R D x 3 L D x 2 R U A L U L x 3 U x 2 L x 5 D x 2
+          Chest: Rx5 Ux3 Rx3 U R Dx3 L Dx2 R U A L U Lx3 Ux2 Lx5 Dx2
       - Floor: '004'
         Type: Puzzle
         Notes: If you got the bonus locusts from the previous room, a merchant will appear here, offering to sell you a hint for a shortcut.
@@ -49,7 +49,7 @@ Grey:
           - Mon
           - Dialogue
         Steps:
-          Chest: D x 2 A R x 8 A D L A R A U L x 2 A R D R x 2 U A U x 2 A D x 2 A L x 3 A R A L x 2 D U A U x 3 L
+          Chest: Dx2 A Rx8 A D L A R A U Lx2 A R D Rx2 U A Ux2 A Dx2 A Lx3 A R A Lx2 D U A Ux3 L
         Dialogue:
           Mysterious Merchant:
             - Mon:
@@ -166,7 +166,7 @@ Grey:
               - Don't ask how I know...
       - Floor: '030'
         Type: Other
-        Notes: tail my beloved :3
+        Notes: life is meaningless... omg tail hi!!! :3
         Dialogue:
           Hitting Tail:
             - Tail:

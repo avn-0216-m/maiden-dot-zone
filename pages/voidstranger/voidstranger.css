@@ -58,14 +58,21 @@ main {
 
 }
 
-.steps>img {
+.steps {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.steps>div>img {
     min-height:42px;
     width: auto;
 }
 
 .stepSpacer{
     min-height: 0px !important;
-    width: 20px !important;
+    width: 40px !important;
     height: auto !important;
 }
 

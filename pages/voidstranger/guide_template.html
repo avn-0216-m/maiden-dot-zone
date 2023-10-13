@@ -56,11 +56,13 @@
                                     {% for type, steps in floor.get("Steps", {}).items() %}
                                         <h1 class="title">{{type}}</h1>
                                         <div class="steps">
-                                            {% for step in steps.split(" ") %}
-                                                <img src="{{step}}.png">
-                                                {% if steps.split(" ")[loop.index] not in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'x'] %}
-                                                    <img class = "stepSpacer" src="Empty.png">
-                                                {% endif %}
+                                            {% for step_group in steps.split(" ") %}
+                                                <div>
+                                                    {% for step in step_group %}
+                                                        <img src="{{step}}.png">
+                                                    {% endfor %}
+                                                </div>
+                                                <img class="stepSpacer" src="Empty.png">
                                             {% endfor %}
                                         </div>
                                     {% endfor %}
