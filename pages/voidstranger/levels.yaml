@@ -166,6 +166,7 @@ Grey:
               - Don't ask how I know...
       - Floor: '030'
         Type: Other
+        Notes: tail my beloved :3
         Dialogue:
           Hitting Tail:
             - Tail:
@@ -372,6 +373,7 @@ Grey:
               - Don't ask how I know...
       - Floor: '067'
         Type: Brand
+        Notes: This brand room is a lot easier to solve if you lead the bull to the top-right corner and seal it away there.
         Other images:
           - Solved
       - Floor: '067 (Crawlspace)'
