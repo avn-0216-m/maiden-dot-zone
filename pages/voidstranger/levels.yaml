@@ -127,6 +127,14 @@ Grey:
       - Floor: '022'
       - Floor: '023'
         Type: Brand
+        Other images:
+          - Solved
+      - Floor: '023 (Crawlspace)'
+        Notes: Congratulations on solving your first brand. The chest here contains the 'Void Memory'. It lets you speak to rocks and other creatures of the Void. Follow the rock's advice to leave. The exit will skip you to floor 025.
+        Type: Secret
+        Other images:
+          - Voidmem
+          - Voidmem2
       - Floor: '024'
       - Floor: '025'
         Void Memory:
@@ -330,9 +338,9 @@ Grey:
               - What am I?
       - Floor: '055'
       - Floor: '056'
+  - Lord Bee's Domain (057-084):
       - Floor: '057'
       - Floor: '058'
-  - Lord Bee's Domain (057-084):
       - Floor: '059'
         Void Memory:
           Knowledgable Rock:
@@ -341,11 +349,76 @@ Grey:
                 - A true trickster even among the Void Lords...
                 - And a devoted admirer of Lord Add...
                 - Don't ask how I know...
-  - Second Traitor's Domain (085-112):
+      - Floor: '060'
+      - Floor: '061'
+      - Floor: '062'
+        Void Memory:
+          Knowledgable Rock:
+            - Rock:
+              - Lord Add was quite fond of dried locust idols and Lord Bee often enjoyed them alongside their lord...
+              - Even though Lord Bee could neither taste anything nor ever feel content...
+              - They would always treasure those little snacking moments...
+              - Don't ask how I know...
+      - Floor: '063'
+      - Floor: '064'
+      - Floor: '065'
+      - Floor: '066'
+        Void Memory:
+          Knowledgable Rock:
+            - Rock:
+              - Lord Bee would regularly boast how cruel they were towards mortals...
+              - But now that I think about it, I never saw them hurt anyone...
+              - At the very least, I doubt they truly enjoyed it as much as they let on.
+              - Don't ask how I know...
+      - Floor: '067'
+        Type: Brand
+        Other images:
+          - Solved
+      - Floor: '067 (Crawlspace)'
+        Type: Secret
+        Notes: If you found your way here yourself, then you have my sincerest congratulations! If you found your way here after completing a run of the game, as I did, then you have my sincerest sympathies. The chest here contains the 'Void Wings', which let you fly over a single empty tile at a time. It's a lot more powerful than it sounds! Going forward, this guide will assume you've acquired the Void Wings. The exit will skip you forward to 071.
+      - Floor: '068'
+      - Floor: '069'
+      - Floor: '070'
+      - Floor: '071'
+      - Floor: '072'
+      - Floor: '073'
+      - Floor: '074' 
+      - Floor: '075' 
+      - Floor: '076' 
+      - Floor: '077' 
+      - Floor: '078' 
+      - Floor: '079' 
       - Floor: '080'
         Has:
           - Gem
+      - Floor: '081' 
+      - Floor: '082' 
+      - Floor: '083' 
+      - Floor: '084' 
+  - Mon's Domain (085-112):
+      - Floor: '085'
+      - Floor: '086'
+      - Floor: '087'
+      - Floor: '088'
+        Void Memory:
+          Knowledgable Rock:
+            - Rock:
+              - The covetous lord often followed the traitorous lord around...
+              - They were enamored by their scales...
+              - Maybe this vacuous reason was enough for them to side with the traitorous lord...
+              - Don't ask how I know.
+      - Floor: '089'
+        Type: Brand
+      - Floor: '090'
+      - Floor: '091'
+      - Floor: '092' 
+      - Floor: '093' 
+      - Floor: '094' 
       - Floor: '095'
+        Notes: A tadpole may appear here, giving lore similarly to the trilobite from B020.
+        Other images:
+          - Tadpole
         Dialogue:
           Tadpole:
             - Tadpole:
@@ -358,6 +431,33 @@ Grey:
               - AND EVEN WHEN ADD WOULD LATER RESORT TO THIS METHOD
               - MOST WOULD STILL SAY
               - THAT MON REMAINED THE MOST REPUGNANT ONE OF ALL THOSE WHO WERE CREATED
+      - Floor: '096'
+      - Floor: '097'
+      - Floor: '098'
+      - Floor: '099'
+      - Floor: '100'
+      - Floor: '101'
+      - Floor: '102'
+      - Floor: '103'
+      - Floor: '104'
+      - Floor: '105'
+        Void Memory:
+          Knowledgable Rock:
+            - Rock:
+              - Even the covetous lord showed interest in locust idols...
+              - But the covetous one didn't eat them, they simply liked collecting them...
+              - Have too many locusts and they would surely show up, bargaining for some...
+              - Don't ask how I know...
+      - Floor: '106'
+      - Floor: '107'
+      - Floor: '108' 
+      - Floor: '109'
+      - Floor: '110'
+      - Floor: '111'
+      - Floor: '112'
+      - Floor: '113'
+        Other images:
+          - Mural
   - Lord Tan's Domain (113-140):
   - Third Traitor's Domain (141-168):
   - Lord Lev's Domain (169-196):
@@ -375,6 +475,9 @@ Grey:
       - Floor: 'Centipede'
         Type: ERR
   - Other:
+      - Floor: '000'
+        Type: Secret
+        Notes: Accessible via locust warp if you have no locusts. Your locust count isn't displayed by default, so you must first to acquire a locust and then lose it.
       - Floor: 'Womb'
         Type: Secret
         Notes: Accessible by entering your own brand in any of the brand rooms. I find it easiest to do in DIS's brand room (B227). Punching the womb will light up the screen.

@@ -63,6 +63,12 @@ main {
     width: auto;
 }
 
+.stepSpacer{
+    min-height: 0px !important;
+    width: 20px !important;
+    height: auto !important;
+}
+
 .talksprite {
     width: auto;
     max-height: 50px;
