@@ -26,10 +26,41 @@ main {
     display: grid;
     align-items: center;
     grid-template-columns: 0.1fr 0.9fr;
+    max-height: 60%;
+}
+
+.dialogueLine>p{
+    margin: 3px;
 }
 
 .title {
     font-size: 2em;
+    padding: 3px;
+    margin: 3px;
+}
+
+.imageAndNotes {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+}
+
+.otherImages {
+    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.otherImages>a>img {
+    padding:0;
+    max-height: 100px;
+    width:auto;
+    image-rendering: auto;
+
+}
+
+.steps>img {
+    min-height:42px;
+    width: auto;
 }
 
 .talksprite {

@@ -7,7 +7,7 @@ with open("levels.yaml", "r") as file:
     root = yaml.safe_load(file)
     
     # Print some data.
-    for domain in root['Levels']['Grey']:
+    for domain in root['Grey']:
         for domain_name, domain_floors in domain.items():
             print("------")
             print(domain_name)
@@ -19,14 +19,14 @@ with open("levels.yaml", "r") as file:
                         print("----")
 
 
-        print(root['Levels']['Grey'])
+        print(root['Grey'])
 
         # Templatify w/ Jinja
         templateLoader = jinja2.FileSystemLoader(searchpath="./")
         templateEnv = jinja2.Environment(loader=templateLoader)
         TEMPLATE_FILE = "guide_template.html"
         template = templateEnv.get_template(TEMPLATE_FILE)
-        output = template.render(domains = root['Levels']['Grey'])
+        output = template.render(root = root)
         with open("guide.html", "w+") as file:
             file.write(output)
         

@@ -18,41 +18,80 @@
                     <h1>Void Stranger on <a href="https://store.steampowered.com/app/2121980/Void_Stranger/">Steam</a> or <a href="https://system-erasure.itch.io/void-stranger">itch.io</a></h1>
                 </header>
 
-                {% for domain in domains %}
-                    {% for domain_name, domain_floors in domain.items() %}
-                    <div class="domainContainer">
-                    <div class="voidBox domainHeader"><p>{{domain_name}}</p></div>
+                {% for character, domains in root.items() %}
 
-                    {% if domain_floors %}
-                        {% for floor in domain_floors %}
-                        <div class="voidBox">
-                            <h1 class="floorNumber">{{floor.get("Floor", "N/A")}}</h1>
-                            <p>{{floor.get("Notes", "")}}</p>
-                            {% for type, steps in floor.get("Steps", {}).items() %}
-                                <h1 class="title">{{type}}</h1>
-                                {% for step in steps.split(" ") %}
-                                <img src="{{step}}.png">
-                                {% endfor %}
-                            {% endfor %}
-                            {% for dialogue_name, collection in floor.get("Void Memory", {}).items() %}
-                                <h1 class="title">{{dialogue_name}}</h1>
-                                {% for dialogue in collection %}
-                                    {% for speaker, lines in dialogue.items() %}
-                                        {% for line in lines %}
-                                        <div class="dialogueLine">
-                                            <img class="talksprite" src="{{speaker}}.png"> <p>{{line}}</p>
+                    {% if domains %}
+                        {% for domain in domains %}
+                            {% for domain_name, domain_floors in domain.items() %}
+                            <div class="domainContainer">
+                            <div class="voidBox domainHeader"><p>{{domain_name}}</p></div>
+
+                            {% if domain_floors %}
+                                {% for floor in domain_floors %}
+                                <div class="voidBox">
+                                    <h1 class="floorNumber">{{floor.get("Type", "Puzzle")}} - {{floor.get("Floor", "N/A")}}</h1>
+                                    <div class="imageAndNotes">
+                                        <div>
+                                            <img src="rooms/{{character}}/{{floor.get('Floor', '')}}.png">
+                                            <div class="otherImages">
+                                                {% for otherImages in floor.get("Other images", []) %}
+                                                    <a href="rooms/{{character}}/{{floor.get('Floor', '')}} {{otherImages}}.png "target="_blank"><img src="rooms/{{character}}/{{floor.get('Floor', '')}} {{otherImages}}.png"></a>
+                                                {% endfor %}
+                                            </div>
                                         </div>
+                                        
+                                        <div class="typeAndNotes">
+                                            <p>{{floor.get("Notes", "")}}</p>
+                                        </div>
+                                        
+
+                                    </div>
+
+                                    {% for type, steps in floor.get("Steps", {}).items() %}
+                                        <h1 class="title">{{type}}</h1>
+                                        <div class="steps">
+                                            {% for step in steps.split(" ") %}
+                                                <img src="{{step}}.png">
+                                            {% endfor %}
+                                        </div>
+                                    {% endfor %}
+
+                                    {% for dialogue_name, collection in floor.get("Dialogue", {}).items() %}
+                                        <h1 class="title">{{dialogue_name}}</h1>
+                                        {% for dialogue in collection %}
+                                            {% for speaker, lines in dialogue.items() %}
+                                                {% for line in lines %}
+                                                <div class="dialogueLine">
+                                                    <img class="talksprite" src="{{speaker}}.png"> <p>{{line}}</p>
+                                                </div>
+                                                {% endfor %}
+                                            {% endfor %}
                                         {% endfor %}
                                     {% endfor %}
+
+                                    {% for dialogue_name, collection in floor.get("Void Memory", {}).items() %}
+                                        <h1 class="title">{{dialogue_name}}</h1>
+                                        {% for dialogue in collection %}
+                                            {% for speaker, lines in dialogue.items() %}
+                                                {% for line in lines %}
+                                                <div class="dialogueLine">
+                                                    <img class="talksprite" src="{{speaker}}.png"> <p>{{line}}</p>
+                                                </div>
+                                                {% endfor %}
+                                            {% endfor %}
+                                        {% endfor %}
+                                    {% endfor %}
+
+
+                                </div>
                                 {% endfor %}
+                            {% endif %}
+
+                            </div>
+
                             {% endfor %}
-                        </div>
                         {% endfor %}
-                    {% endif %}
-
-                    </div>
-
-                    {% endfor %}
+                    {% endif %} 
                 {% endfor %}
 
 
