@@ -1,0 +1,128 @@
+Levels:
+  Grey:
+    - Lord Add's Domain (000-028):
+        - Floor: '001'
+          Type: Mural
+          Has:
+            - Mural
+            - Gem
+          Notes: 'Welcome to Void Stranger. Head to the stairs to continue.'
+          Dialogue:
+            Mural:
+                - Narration:
+                    - '[The mural is filled with inscriptions]'
+                    - '[Deciphering them seems like a futile effort]'
+          Void Memory:
+            Mural:
+              - Narration:
+                  - '[The mural is filled with inscriptions]'
+                  - '[It reads:]'
+                  - 'ONLYAMEMORYREMAINS'
+                  - '[...Were you always able to read this?]'
+        - Floor: '002'
+          Type: Other
+          Notes: 'Open the chest and obtain the rod. You are now locked to a grid, and can move blocks by picking them up and placing them elsewhere. With your new power, make a path to the stairs.'
+          Steps:
+            Stairs: 'R A L L L A L L L D'
+          Dialogue:
+            Rod Acquired:
+              - Narration:
+                  - '[You acquired a strange rod]'
+                  - '[Simply holding it makes you feel uneasy]'
+                  - '[Something is wrong]'
+        - Floor: '003'
+        - Floor: '004'
+          Type: Puzzle
+          Has:
+            - Chest
+            - Mon
+            - Rock
+        - Floor: '005'
+        - Floor: '006'
+        - Floor: '007'
+        - Floor: '008'
+        - Floor: '009'
+        - Floor: '010'
+        - Floor: '011'
+        - Floor: '012'
+        - Floor: '013'
+        - Floor: '014'
+        - Floor: '015'
+        - Floor: '016'
+          Type: Puzzle
+          Has:
+            - Rock
+          Void Memory:
+            Knowledgable Rock:
+              - Rock:
+                - Not all Void Lords saw eye to eye...
+                - One day, a great battle erupted between two factions among the lords...
+                - As its agents turned against each other, Void began to destabilize...
+                - Don't ask how I know...
+        - Floor: '017'
+        - Floor: '018'
+        - Floor: '019'
+          Void Memory:
+            Knowledgable Rock:
+              - Rock:
+                - While the fighting had finally ended...
+                - Something unexpected happened...
+                - While Void was still in shambles, Lord Add left...
+                - Don't ask how I know...
+        - Floor: '020'
+          Dialogue:
+            Trilobite:
+              - Trilobite:
+                - HAVE YOU MET ADD
+                - FROM THEIR OWN UNDYING FLESH THEY CREATED MANY BEINGS
+                - ONLY FEW SURVIVED
+                - AND EVEN FEWER
+                - BECAME SENTIENT
+        - Floor: '021'
+        - Floor: '022'
+        - Floor: '023'
+          Type: Brand
+        - Floor: '024'
+        - Floor: '025'
+          Void Memory:
+            Knowledgable Rock:
+              - Rock:
+                - So you can hear me...
+                - Not everyone around here is worth listening to...
+                - Us lonely ones are quite knowledgable though...
+                - Don't ask how I know...
+        - Floor: '026'
+        - Floor: '027'
+        - Floor: '028'
+          Type: Birch
+    - Lord Eus's Domain (029-056):
+        - Floor: '029'
+          Type: Mural
+    - Bee's Domain (059-084):
+        - Floor: '059'
+          Void Memory:
+            Knowledgable Rock:
+              - Rock:
+                - Here lies the domain of Lord Bee, The Craving...
+                - A true trickster even among the Void Lords...
+                - And a devoted admirer of Lord Add...
+                - Don't ask how I know...
+    - Second Traitor's Domain (085-112):
+        - Floor: '080'
+          Has:
+            - Gem
+    - Tan's Domain (113-140):
+    - Third Traitor's Domain (141-168):
+    - Lord Lev's Domain (169-196):
+    - Lord Cif's Domain (197-224):
+    - Alphabet (228-253):
+    - Path of Pain:
+    - Beneath the Void:
+        - Floor: '??? - 1'
+        - Floor: '??? - White Lord'
+    - DIS OS Error:
+        - Floor: 'ERR - Giant Carcass'
+        - Floor: 'ERR - Chaser'
+        - Floor: 'ERR - Centipede'
+  Lillie:
+  Cif:

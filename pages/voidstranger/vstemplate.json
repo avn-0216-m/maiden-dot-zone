@@ -1,0 +1,18 @@
+{
+    "floor": "000",
+    "type": "puzzle/mural/brand/rest/other",
+    "has": [],
+    "guide": {
+        "normal": "",
+        "chest": "",
+        "crystal": "",
+        "chest and crystal": "",
+        "shortcut": "",
+        "void sword": "",
+        "void wings": ""
+    },
+    "void memory": [[], []],
+    "other dialogue": [[], []],
+    "notes": "",
+    "images": []
+}

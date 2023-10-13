@@ -1,0 +1,189 @@
+{
+    "character": {
+        "Grey": {
+            "areas": {
+                "Add's Domain (000-028)": [
+                    {
+                        "floor": "001",
+                        "type": "mural",
+                        "has": [
+                            "crystal",
+                            "mural"
+                        ],
+                        "guide": {
+                            "chest": "",
+                            "crystal": "",
+                            "chest and crystal": "",
+                            "shortcut": ""
+                        },
+                        "void memory": [
+                            {
+                                "Grey": "[The mural is filled with inscriptions]"
+                            },
+                            {
+                                "Grey": "[It reads:]"
+                            },
+                            {
+                                "Mural": "ONLYAMEMORYREMAINS"
+                            },
+                            {
+                                "Grey": "[...Were you always able to read this?]"
+                            }
+                        ],
+                        "notes": "There is a crystal here, but you cannot grab it without the staff.",
+                        "images": [
+                            "mural"
+                        ]
+                    },
+                    {
+                        "floor": "002",
+                        "type": "other",
+                        "has": [],
+                        "guide": {
+                            "normal": "Open the chest and obtain the Staff. You are now locked to a grid, and can move blocks by picking them up and placing them elsewhere. With your new tool, grab any of the blocks on the right and use it to patch the hole to your left, and head to the stairs.",
+                            "chest": "",
+                            "crystal": "",
+                            "chest and crystal": "",
+                            "shortcut": ""
+                        },
+                        "dialog": [
+                            {
+                                "Grey": "[You acquired a strange rod]"
+                            },
+                            {
+                                "Grey": "[Simply holding it makes you feel uneasy]"
+                            },
+                            {
+                                "Grey": "[Something is wrong]"
+                            }
+                        ],
+                        "notes": "",
+                        "images": []
+                    },
+                    {
+                        "floor": "003",
+                        "type": "puzzle",
+                        "has": [
+                            "rock",
+                            "chest"
+                        ],
+                        "guide": {
+                            "chest": "Go to the chest and open it, then proceed to the stairs."
+                        },
+                        "void memory": [
+                            [
+                                {
+                                    "Rock": "Knock the backside of the chest three times in a row while it's closed..."
+                                },
+                                {
+                                    "Rock": "Then wait for three seconds..."
+                                },
+                                {
+                                    "Rock": "Something good should happen..."
+                                },
+                                {
+                                    "Rock": "Don't ask how I know..."
+                                }
+                            ]
+                        ],
+                        "notes": "Chests can only be opened from the front, and contain locust idols. They are extra lives.",
+                        "images": []
+                    },
+                    {
+                        "floor": "004",
+                        "type": "puzzle",
+                        "has": [
+                            "mon",
+                            "rock",
+                            "chest"
+                        ],
+                        "guide": {
+                            "normal": "Fill in any of the holes in the middle of the floor to reach the stairs.",
+                            "chest": "Fill in the two right-most holes. Grab a block, then go to the bottom-right of the stage and walk up so you can face the third hole. Place your block to reach the chest."
+                        },
+                        "other dialogue": [
+                            [
+                                {
+                                    "Mon": "TODO: Add Mon's dialogue."
+                                }
+                            ]
+                        ],
+                        "void memory": [
+                            [
+                                {
+                                    "Rock": "A long time ago..."
+                                },
+                                {
+                                    "Rock": "These halls were governed by beings known as Void Lords..."
+                                },
+                                {
+                                    "Rock": "Their leader was Lord Add, The Beginning..."
+                                },
+                                {
+                                    "Rock": "Don't ask how I know..."
+                                }
+                            ]
+                        ],
+                        "notes": "",
+                        "images": []
+                    },
+                    {
+                        "floor": "005",
+                        "type": "puzzle",
+                        "has": [
+                            "chest",
+                            "reset"
+                        ],
+                        "guide": {
+                            "normal": "Grab a block from the left column and place it on the first right-most hole to reach the stairs.",
+                            "chest": "Grab the two right-most blocks and put them down to reach the backside of the chest. Then, take those blocks, and extend out the middle column. Three-bridge (see notes) down to the front of the chest, open it, then go to the stairs via the pathway you built."
+                        },
+                        "notes": "Three-bridging is a powerful technique. As long as you have three blocks in a line, you can move an infinite amount along that axis by moving back and forth, grabbing the last block, and placing it in front.",
+                        "images": []
+                    },
+                    {
+                        "floor": "006",
+                        "type": "puzzle",
+                        "has": ["chest"],
+                        "guide": {
+                            "normal": "Grab the bottom-left most available block and use it to fill the hole to the north, then repeat.",
+                            "chest": "Grab the bottom-left most available block and fill the northern hole to reach the chest's backside. Grab the top-most block and three-bridge from the bottom of the screen to the three floating blocks. Move your 3x2 grid 1 square right, then three-bridge up to the chest. Use leftover blocks to fill any gaps on your way to the stairs."
+                        }
+                    },
+                    {
+                        "floor": "007",
+                        "type": "puzzle",
+                        "has": [],
+                        "guide": {
+                            "normal": "Push the rock out of the way, grab a block to fill the hole, push the second rock, and the third into a pit.",
+                            "shortcut": "Same as above, but take the stairs and put them into the first hole you made. Go to the hole where the stair was, grab a block from behind you, and replace the empty space with a tile. Then, fall into the hole behind it."
+                        }
+                    },
+                    {
+                        "floor": "008",
+                        "type": "puzzle",
+                        "has": [],
+                        "guide": {
+                            "normal": "On the left, push the middle rock into the pit. On the right, push the left rock onto the stairs, the right rock into the pit, then push the rock off the stairs and into the pit."
+                        },
+                        "images": []
+                    }
+                    
+                ],
+                "Eus's Domain (029-056)": {},
+                "Bee's Domain (059-084)": {},
+                "Second Traitor's Domain (085-112)":{},
+                "Tan's Domain (113-140)": {},
+                "Third Traitor's Domain (141-168)": {},
+                "Lord Lev's Domain (169-196)": {},
+                "Lord Cif's Domain (197-224)": {},
+                "Alphabet (228-253)": {},
+                "Path of Pain": {},
+                "Beneath the Void": {},
+                "DIS OS": {}
+            }
+        },
+        "L.": {},
+        "C.": {}
+    }
+}

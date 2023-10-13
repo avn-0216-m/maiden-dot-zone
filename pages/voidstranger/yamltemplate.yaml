@@ -1,0 +1,14 @@
+- Floor: 000
+  Type: Puzzle
+  Has:
+    - Chest
+  Steps:
+    Stairs:
+    Chest:
+    Gem:
+    Both:
+    Shortcut:
+    Void Wings:
+  Notes:
+  Void Memory:
+  Dialogue:

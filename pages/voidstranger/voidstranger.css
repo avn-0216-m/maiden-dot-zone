@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'VoidStranger';
+    src: URL('VoidStranger.ttf') format('truetype');
+  }
+
+body {
+    background-color: #000000 !important;
+}
+
+main {
+    outline: none;
+}
+
+.voidBox {
+    image-rendering: pixelated;
+    border: 6px solid transparent;
+    border-image: url('border.png') 3 3 3 3 repeat;
+    position: relative;
+    margin: 15px;
+    padding: 15px;
+    min-height: 150px;
+    font-size: 1vw;
+}
+
+.dialogueLine{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.1fr 0.9fr;
+}
+
+.talksprite {
+    width: auto;
+    max-height: 50px;
+}
+
+.voidBox.domainHeader {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.floorNumber {
+    top:0;
+    right:0;
+    position:absolute;
+    margin: 1px;
+}
+
+.decor {
+    background-image: url("side.png") !important;
+    background-repeat: repeat-y;
+    background-size: 40%;
+    image-rendering: crisp-edges;
+}
+
+.decor.right {
+    transform:scaleX(-1);
+}
+
+* {
+    font-family: 'VoidStranger' !important;
+    letter-spacing: 2px !important;
+}

@@ -1,0 +1,50 @@
+---
+Tiles:
+  Block:
+    - Description: A humble stepping stone on your path to glory.
+    - Icon:
+  Glass:
+    - Description: If stepped on, glass tiles will shatter after you step off them.
+    - Icon:
+  Activator:
+    - Description: If stepped on, they will become primed, signaled by glowing lines. Stepping on them again will cause them to activate and disappear. Any other adjacent, primed activators will also be triggered and disappear.
+    - Icon:
+  Stairs:
+    - Description: The goal of each level. Go here to progress.
+    - Icon:
+---
+statues:
+  - reset
+  - locust
+  - killer
+  - limiter
+  - zapper
+---
+Enemies:
+  - Snake:
+      Description: Moves left and right. Pauses for one turn to turn around upon hitting a wall or edge.
+  - Larva:
+      Description: Like the snake, but moves up and down.
+      Icon:
+  - Starman (White):
+      description: Mirrors horizontal moves, copies vertical moves.
+  - Starman (Grey):
+  - Starman (Black):
+  - Shadow:
+      Description: Follows one block behind the player. If they die, so do you. Don't cross glass or activator tiles.
+  - Ramiel:
+      Description: Attempts to follow the shortest path to the player. If no path is available, it enters a deactivated state. You can trick it by carefully building longer paths to bait it away from you.
+  - Bull:
+      Description: When the player enters its line of sight, it will charge in a straight line towards the player until it a wall or edge.
+  - Blob:
+      Description: When the player enters its line of sight, it will move one space towards the player.
+---
+techniques:
+  - baiting
+  - three-bridging
+  - two-by-two
+---
+npcs:
+ - Hungry
+ - Thief
+---

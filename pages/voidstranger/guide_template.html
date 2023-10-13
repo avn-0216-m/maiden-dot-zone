@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="voidstranger.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <aside class="decor left"></aside>
+        <main>
+            <article>
+                <header>
+                    <h1>Do you remember <a href="/index.html">why you're here?</a></h1>
+
+                    <h1>This is a full (WIP) guide for Void Stranger. It will spoil just about everything! You have been warned.</h1>
+                    <h1>I highly recommend you play it for yourself, because it is a pretty incredible game.</h1>
+                    <h1>Void Stranger on <a href="https://store.steampowered.com/app/2121980/Void_Stranger/">Steam</a> or <a href="https://system-erasure.itch.io/void-stranger">itch.io</a></h1>
+                </header>
+
+                {% for domain in domains %}
+                    {% for domain_name, domain_floors in domain.items() %}
+                    <div class="domainContainer">
+                    <div class="voidBox domainHeader"><p>{{domain_name}}</p></div>
+
+                    {% if domain_floors %}
+                        {% for floor in domain_floors %}
+                        <div class="voidBox">
+                            <h1 class="floorNumber">{{floor.get("Floor", "N/A")}}</h1>
+                            <p>{{floor.get("Notes", "")}}</p>
+                            {% for dialogue_name, collection in floor.get("Void Memory", {}).items() %}
+                                <p>{{dialogue_name}}</p>
+                                {% for dialogue in collection %}
+                                    {% for speaker, lines in dialogue.items() %}
+                                        {% for line in lines %}
+                                        <div class="dialogueLine">
+                                            <img class="talksprite" src="{{speaker}}.png"> <p>{{line}}</p>
+                                        </div>
+                                        {% endfor %}
+                                    {% endfor %}
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    </div>
+
+                    {% endfor %}
+                {% endfor %}
+
+
+
+            </article>
+        </main>
+        <aside class="decor right"></aside>
+    </body>
+    <script src="voidstranger.js"></script>
+</html>
