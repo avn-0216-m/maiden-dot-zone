@@ -9,12 +9,12 @@ Levels:
           Notes: 'Welcome to Void Stranger. Head to the stairs to continue.'
           Dialogue:
             Mural:
-                - Narration:
+                - Empty:
                     - '[The mural is filled with inscriptions]'
                     - '[Deciphering them seems like a futile effort]'
           Void Memory:
             Mural:
-              - Narration:
+              - Empty:
                   - '[The mural is filled with inscriptions]'
                   - '[It reads:]'
                   - 'ONLYAMEMORYREMAINS'
@@ -26,7 +26,7 @@ Levels:
             Stairs: 'R A L L L A L L L D'
           Dialogue:
             Rod Acquired:
-              - Narration:
+              - Empty:
                   - '[You acquired a strange rod]'
                   - '[Simply holding it makes you feel uneasy]'
                   - '[Something is wrong]'

@@ -12,7 +12,7 @@
             <article>
                 <header>
                     <h1>Do you remember <a href="/index.html">why you're here?</a></h1>
-
+                    <img src="splash.png">
                     <h1>This is a full (WIP) guide for Void Stranger. It will spoil just about everything! You have been warned.</h1>
                     <h1>I highly recommend you play it for yourself, because it is an incredible game.</h1>
                     <h1>Void Stranger on <a href="https://store.steampowered.com/app/2121980/Void_Stranger/">Steam</a> or <a href="https://system-erasure.itch.io/void-stranger">itch.io</a></h1>
@@ -28,8 +28,14 @@
                         <div class="voidBox">
                             <h1 class="floorNumber">{{floor.get("Floor", "N/A")}}</h1>
                             <p>{{floor.get("Notes", "")}}</p>
+                            {% for type, steps in floor.get("Steps", {}).items() %}
+                                <h1 class="title">{{type}}</h1>
+                                {% for step in steps.split(" ") %}
+                                <img src="{{step}}.png">
+                                {% endfor %}
+                            {% endfor %}
                             {% for dialogue_name, collection in floor.get("Void Memory", {}).items() %}
-                                <p>{{dialogue_name}}</p>
+                                <h1 class="title">{{dialogue_name}}</h1>
                                 {% for dialogue in collection %}
                                     {% for speaker, lines in dialogue.items() %}
                                         {% for line in lines %}

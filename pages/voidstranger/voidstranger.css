@@ -19,13 +19,17 @@ main {
     margin: 15px;
     padding: 15px;
     min-height: 150px;
-    font-size: 1vw;
+    font-size: 1.5em;
 }
 
 .dialogueLine{
     display: grid;
     align-items: center;
     grid-template-columns: 0.1fr 0.9fr;
+}
+
+.title {
+    font-size: 2em;
 }
 
 .talksprite {
@@ -35,7 +39,7 @@ main {
 
 .voidBox.domainHeader {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 .floorNumber {
