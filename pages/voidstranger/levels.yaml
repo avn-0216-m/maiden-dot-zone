@@ -63,6 +63,8 @@ Grey:
                 - Ksi shi shi shi shi shi shi...
                 - Stranger, stranger...
                 - Are those locusts in your pocket or are you just happy to see me?
+          An Offer:
+            - Mon:
                 - How about a trade?
                 - As you might've notice, traveling through these halls can get rather tiresome.
                 - There are, however, shortcuts that few know about...
@@ -99,6 +101,8 @@ Grey:
       - Floor: '005'
       - Floor: '006'
       - Floor: '007'
+      - Floor: '007 (Crawlspace)'
+        Type: Secret
       - Floor: '008'
       - Floor: '009'
       - Floor: '010'
@@ -429,6 +433,9 @@ Grey:
       - Floor: '035'
       - Floor: '036'
       - Floor: '037'
+      - Floor: '037 (Crawlspace)'
+        Type: Secret
+        Notes: The stairs here lead to B053.
       - Floor: '038'
       - Floor: '039'
       - Floor: '040'
@@ -543,6 +550,7 @@ Grey:
             - Empty:
                 - "[She's become cautious of you]"
       - Floor: '056'
+        Type: Birch
   - Lord Bee's Domain (057-084) | The Craving.:
       - Floor: '057'
         Type: Mural
@@ -573,7 +581,7 @@ Grey:
           Stairs: "L Dx3 Lx3 Rx3 Dx3"
       - Floor: '062'
         Steps:
-          Stairs: "Rx2 U R U A U R Dx2 L U A D L Rx2 U L A U L Rx2 D L A U D A R Dx3 R"
+          Stairs: "Rx2 U R U A R U Dx2 L U A D L Rx2 U L A U L Rx2 D L A U D A R Dx3 R"
         Void Memory:
           Knowledgeable Rock:
             - Rock:
@@ -617,17 +625,17 @@ Grey:
         Notes: A hungry man appears here. You can give him a locust idol if you're feeling kind.
         Dialogue:
           Asking for food:
-            - Blank:
+            - Empty:
               - "[A scrawny man stands before you]"
             - Hungry:
               - Smell...
               - Food...
               - Give.
-            - Blank:
+            - Empty:
               - "[It seems he is looking for food]"
               - "[Maybe you should give something to him?]"
           Giving a locust idol:
-            - Blank:
+            - Empty:
               - "[You hand over one of your locust idols]"
               - "[The man grabs it without hesitation, gulping it down in an instant]"
             - Hungry:
@@ -642,6 +650,13 @@ Grey:
       - Floor: '073'
       - Floor: '074'
       - Floor: '075'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - That smirk... 
+              - Lord Bee was always smiling when around others...
+              - Makes you wonder if they kept it up even alone...
+              - Don't ask how I know...
       - Floor: '076'
       - Floor: '077'
       - Floor: '078'
@@ -652,17 +667,68 @@ Grey:
       - Floor: '081'
       - Floor: '082'
       - Floor: '083'
+        Void Memory:
+          Knowledgeable Rock: 
+            - Rock:
+              - After Lord Add's departure...
+              - Lord Bee's prominent smile remained...
+              - As if nothing had happened...
+              - Don't ask how I know...
       - Floor: '084'
-  - Lord Mon's Domain (085-112) | The covetous lord.:
+        Type: Birch
+  - Lord Mon's Domain (085-112) | The second traitorous Void Lord.:
       - Floor: '085'
         Type: Mural
         Other images:
           - Mural
           - Broken
       - Floor: '086'
+        Has:
+          - Mon
+        Dialogue:
+          Mysterious Merchant:
+            - Mon:
+                - Ksi shi shi shi shi shi shi...
+                - Stranger, stranger...
+                - Are those locusts in your pocket or are you just happy to see me?
+          An Offer:
+            - Mon:
+                - How about a trade?
+                - As you might've notice, traveling through these halls can get rather tiresome.
+                - There are, however, shortcuts that few know about...
+                - If you hand over all your locusts, I'll give you a hint on how to find one of them!
+                - We wouldn't want that noggin of yours to go completely dull.
+                - So, how about it, stranger?
+          Trading your locusts:
+            - Empty:
+                - '[You decide to trade your locusts for a piece of hot info]'
+            - Mon:
+                - Ksi shi shi shi shi shi shi...
+                - This is just too exciting...!
+                - "Okay, here it comes:"
+                - A suspicious empty chest surrounded by nothing, inspect it one too many times...
+                - That's all.
+                - Ksi shi shi shi shi shi shi...
+          Talking after trade:
+            - Mon:
+                - Don't go wasting your precious locusts on those smirking statues, you hear me? Such a useless waste of space, just like their model...
+                - Ksi shi shi shi shi shi...
+            - Empty:
+                - '[The dubious merchant smirks, barely able to contain their laughter]'
+                - '[...]'
+                - '["A suspicious empty chest surrounded by nothing, inspect it one too many times..."]'
+                - '[... Did they just swindle you?]'
+        Notes: If you have (num) locust idols, the merchant will appear here, offering to sell you a hint to find a shortcut on floor 083.
         Steps:
           Stairs: "L R A Lx2 U Lx3 D Lx5 U D A Dx2"
       - Floor: '087'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - "Here lies the domain of the second traitorous Void Lord..."
+              - "The calculating charlatan, forever blinded by their own covetousness..."
+              - "Shall their name never grace these halls again..."
+              - "Don't ask how I know..."
       - Floor: '088'
         Steps:
           Chest: "R D A R U A L U R A Dx2 A Rx10 U A D Lx3 R A Lx9 Ux2 R A Dx2 R U L A Rx8 A Rx2"
@@ -735,14 +801,35 @@ Grey:
         Notes: This is where the thief meets her end. Even if you forgive her, she's blocking the way forward...
       - Floor: '111'
       - Floor: '112'
-  - Lord Tan's Domain (113-140) | Even when the battle subsided, their rage wouldn't end...:
+        Type: Birch
+  - Lord Tan's Domain (113-140) | The Raging.:
       - Floor: '113'
         Type: Mural
+        Notes: A horseshoe crab-thing may appear here, blocking access to the mural. This may be intentional, as without the mural you cannot obtain the Void Sword and fight Tan.
         Other images:
           - Mural
+          - Horseshoe
+        Void Memory:
+          Horseshoe:
+            - Horseshoe:
+              - PLEASE DO NOT BOTHER TAN
+              - THEY MEAN NO HARM
+              - THEY JUST DO NOT GET ALONG WITH OTHERS
+              - YOU PROBABLY DO NOT BELIEVE ME
+              - BUT I CAN TELL
+              - DEEP DOWN THEY ARE A GENTLE BEING
+              - YOU WOULD NOT HURT THEM
+              - RIGHT
       - Floor: '114'
         Type: Other
       - Floor: '115'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - Here lies the domain of Lord Tan, The Raging.
+              - So fierce was their nature, other Void Lords preferred not to interact with them...
+              - Alas, Lord Tan would remain on their own most of the time.
+              - Don't ask how I know...
       - Floor: '116'
       - Floor: '117'
       - Floor: '118'
@@ -766,6 +853,42 @@ Grey:
                 - Thus Lord Add had no other option, but to strike their ally down...
                 - Don't ask how I know...
       - Floor: '124'
+        Has:
+          - Mon
+        Dialogue:
+          Mon:
+            - Mon:
+              - Ksi shi shi shi shi shi shi...
+              - Nice to meet you once again, stranger.
+          An Offer:
+            - Mon:  
+              - I see you've been filling your pockets with locusts...
+              - Let's strike another deal, shall we?
+              - Give all your locusts and I'll tip you off towards another shortcut.
+              - I'm sure it'll prove useful if you manage to find it.
+              - How about it, stranger?
+          Trade your Locusts:
+            - Empty:
+              - "[You decided to trade your locusts for a hot piece of info]"
+            - Mon:
+              - Ksi shi shi shi shi shi shi...
+              - This is just too exciting...!
+              - "Okay, here it comes:"
+              - Insatiable smiles surround you, break all the floors of glass before falling...
+              - That's all.
+              - Ksi shi shi shi shi shi shi...
+          After the Trade:
+            - Mon:
+              - Why am I wearing this tag?
+              - Let's just say it keeps both of us safe.
+              - Ksi shi shi shi shi shi shi...
+          Hint Reminder:
+            - Empty:
+              - "[The dubious merchant smirks, barely able to contain their laughter]"
+              - "[...]"
+              - '["Insatiable smiles surround you, break all the floors of glass before falling..."]'
+              - "[Did they just swindle you?]"
+
       - Floor: '125'
       - Floor: '126'
       - Floor: '127'
@@ -773,6 +896,10 @@ Grey:
       - Floor: '129'
       - Floor: '130'
       - Floor: '131'
+        Notes: There's a shortcut here. "Insatiable smiles surround you, break all the floors of glass before falling..."
+      - Floor: '131 (Crawlspace)'
+        Notes: The stairs here lead to B167.
+        Type: Secret
       - Floor: '132'
         Steps:
           Stairs: "R Dx2 R Ux2 Rx3 D Lx2 D Rx2 U R Ux3 R Dx2 R Ux3 Rx5"
@@ -822,6 +949,7 @@ Grey:
       - Floor: '141'
       - Floor: '142'
       - Floor: '143'
+        Note: A very big head blocks your path. Luckily for you, if you have a means of killing them, they will gladly accept it.
         Void Memory:
           Knowledgeable Rock:
             - Rock:
@@ -842,16 +970,39 @@ Grey:
       - Floor: '147'
       - Floor: '148'
         Notes: Push the rock to the right twice to align yourself.
+        Void Memory:
+          Knowledgeable Rock: 
+            - Rock:
+              - The feeble lord never showed any interest towards the happenings of Void...
+              - They would simply fulfill their role without any enthusiasm, just so the other lords wouldn't bother them...
+              - Don't ask how I know...
       - Floor: '149'
       - Floor: '150'
       - Floor: '151'
       - Floor: '152'
       - Floor: '153'
       - Floor: '154'
+        Notes: A metroid may appear here, sharing lore instead of sucking your brain to death.
+        Other images:
+         - Metroid
+        Void Memory:
+          Metroid:
+            - Metroid:
+              - GOR WAS THE SECOND BEING
+              - TO BE CREATED WITH FORBIDDEN MEANS
+              - ADD TRIED TO BE CAREFUL THIS TIME
+              - TOO CAREFUL
+              - GOR BECAME ALMOST EMOTIONLESS
+              - SLUGGISH AND INDECISIVE 
+              - THEY DID NOT AMOUNT TO MUCH
       - Floor: '155'
       - Floor: '156'
+      - Steps:
+          Stairs: Dx2 Rx2 Dx3 L D L
       - Floor: '157'
       - Floor: '158'
+        Steps:
+          Stairs: R U Rx2 Ux2 L A U A Ux3
       - Floor: '159'
         Void Memory:
           Knowledgeable Rock:
@@ -862,15 +1013,56 @@ Grey:
                 - Don't ask how I know...
       - Floor: '160'
       - Floor: '161'
+        Steps:
+          Stairs: U Lx2 D Rx3 U R Ux3 Rx6 U
       - Floor: '162'
       - Floor: '163'
       - Floor: '164'
+        Steps:
+          Stairs: U A D R Ux2 A U L R Lx2
       - Floor: '165'
+        Steps:
+          Stairs: R Dx3 L Ux4 R
       - Floor: '166'
       - Floor: '167'
+        Notes: Logically speaking, this puzzle is impossible. Try appealing to your opposition's emotions instead. Talk to them.
+        Dialogue:
+          Impossible:
+            - Grey:
+              - ...
+              - Seems like you figured it out.
+              - You're stuck.
+              - There's no way around this.
+              - This is impossible.
+              - ...Is what I'd like to say.
+              - Like that would be enough to stop you.
+              - Trust me, I should know.
+          Don't Give Up:
+            - Grey:
+              - You probably prepared yourself for this already... 
+              - Things won't get easier from here.
+              - Honestly, I can't even tell how much you've got left...
+              - But you can't give up.
+              - You won't give up. 
+              - Because someone is waiting for you.
+              - You don't need me to tell you that.
+              - Just...
+              - Just don't be too hard on yourself.
+              - Even when answers escape you and you're ready to succumb into despair...
+              - I believe in you.
       - Floor: '168'
+        Type: Birch
   - Lord Lev's Domain (169-196) | The Devious.:
       - Floor: '169'
+        Type: Mural
+        Void Memory:
+          Mural:
+            - Empty:
+                - '[The mural is filled with inscriptions]'
+                - '[It reads:]'
+                - 'ONLYAENVYREMAINS'
+        Other images:
+          - Mural
       - Floor: '170'
       - Floor: '171'
         Void Memory:
@@ -937,6 +1129,39 @@ Grey:
       - Floor: '194'
       - Floor: '195'
       - Floor: '196'
+        Dialogue:
+          Mon:
+            - Mon:
+              - Ksi shi shi shi shi shi shi...
+              - Nice to meet you once again, stranger.
+          An Offer:
+            - Mon:  
+              - I see you've been filling your pockets with locusts...
+              - Let's strike another deal, shall we?
+              - Give all your locusts and I'll tip you off towards another shortcut.
+              - I'm sure it'll prove useful if you manage to find it.
+              - How about it, stranger?
+          Trade your Locusts:
+            - Empty:
+              - "[You decided to trade your locusts for a hot piece of info]"
+            - Mon:
+              - Ksi shi shi shi shi shi shi...
+              - This is just too exciting...!
+              - "Okay, here it comes:"
+              - Nothing but a straight road, take the fall before your reflection...
+              - That's all.
+              - Ksi shi shi shi shi shi shi...
+          After the Trade:
+            - Mon:
+              - What am I going to do with all these locusts?
+              - Maybe you'll find out if you stick around long enough.
+              - Ksi shi shi shi shi shi shi...
+          Hint Reminder:
+            - Empty:
+                - '[The dubious merchant smirks, barely able to contain their laughter]'
+                - '[...]'
+                - '["Nothing but a straight road, take the fall before your reflection..."]'
+                - '[... Did they just swindle you?]'
   - Lord Cif's Domain (197-224):
       - Floor: '197'
         Type: Mural
@@ -1131,9 +1356,72 @@ Grey:
               - Make their light...
             - Empty:
               - Endless.
-
-
-  - Mister Mon's Wild Ride | You'll surely regret it...:
+  - Mr Mon's Wild Ride | You'll surely regret it...:
+      - Floor: 'MMWR (001)'
+        Notes: Welcome to Mister Mon's Wild Ride! The Void Wings and Sword are required to enter here, so be prepared to use them!
+        Steps:
+          Hole: Dx2 Lx2 Dx2 Rx3 Dx11 Rx3 Dx2
+      - Floor: 'MMWR (002)'
+        Notes: Lead both bulls to the small cubby on the right, so that one of the bulls is blocking the statue's line of sight.
+        Steps:
+          Hole: Ux3 Rx2 Lx2 U D U Rx2 Dx4 U L D Lx2 R U Rx3 Dx2 U D Lx2 U Dx4 R Dx2
+      - Floor: 'MMWR (003)'
+        Steps:
+          Hole: Lx3 U Lx3 Dx2 Ux5 Lx3 Dx2 Lx5 D Lx3
+      - Floor: 'MMWR (004)'
+        Steps:
+          Hole: Rx2 Ux2 Rx2 D Lx2 Dx2 R U R Ux3 Dx3 R D R U R U L
+      - Floor: 'MMWR (005)'
+        Steps:
+          Hole: Lx2 Dx5 L D R U Lx4 Dx2 Lx2 R Ux2 Lx3 Ux2 L
+      - Floor: 'MMWR (006)'
+        Steps:
+          Hole: Rx4 Dx3 Rx2 U Rx8
+      - Floor: 'MMWR (007)'
+        Steps:
+          Hole: L U L A L U A Ux4 Dx2 Rx2 Ux2 Rx3
+      - Floor: 'MMWR (008)'
+        Steps:
+          Hole: Lx2 Dx3 Lx6 U Rx2 Dx3 R Dx3
+      - Floor: 'MMWR (009)'
+        Steps:
+          Hole: R Ux2 Lx2 Dx2 L U L Ux2 R U L U Lx5 Dx5
+      - Floor: 'MMWR (010)'
+        Steps:
+          Hole: U A U R A R U A D L Dx2 A L Ux2 L Rx2 U Rx2 A Rx5
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - I can't remember these halls...
+              - Who build them...
+              - What are they hiding...
+              - Don't ask how I know...
+      - Floor: 'MMWR (011)'
+        Steps:
+          Hole: L Dx4 R L Ux2 Lx2 Ux2 Lx2 D Lx5
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - Those petty idols...
+              - That avaricious gaze...
+              - How did they survive...
+              - Don't ask how I know...
+      - Floor: 'MMWR (012)'
+        Notes: The brain-bustiest of them all. Good luck.
+        Steps:
+          Hole: Rx3 L Dx2 L R A Rx3 U R A D U L A L Ux3 D Rx3 D U Rx2 U D R Dx2 Rx6
+      - Floor: 'MMWR (013)'
+        Notes: Deceptively simple. Turn off your Void Wings.
+        Steps:
+          Hole: Lx4
+      - Floor: 'MMWR (014)'
+        Type: Other
+        Notes: Congratulations! Your reward is... 3 locusts.
+      - Floor: 'MMWR (015)'
+        Type: Boss(?)
+        Notes: I'm told there's a boss here. But I have yet to see him. Probably need to be unvoided.
+      - Floor: 'MMWR (016)'
+        Notes: A strange solitary rock, blocked by reset statues... The stairs take you to B196.
   - 'DIS OS Error | >FATAL ERROR: BR NULL':
       - Floor: 'Giant Carcass'
         Notes: A giant carcass can be found by following the sound of dull howl. Punching it 10 times will cause a bell to toll for thee. If you accept its call, a cutscene showing an old Dr. Lily in a research facility that appears to be in the Abyss. Afterwards, the game will reset.
