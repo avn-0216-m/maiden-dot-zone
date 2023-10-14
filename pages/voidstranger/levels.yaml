@@ -1,11 +1,11 @@
 Grey:
-  - Lord Add's Domain (001-028):
+  - Lord Add's Domain (001-028) | The Beginning.:
       - Floor: '001'
         Type: Mural
         Has:
           - Mural
           - Gem
-        Notes: 'Welcome to Void Stranger. Head to the stairs to continue.'
+        Notes: 'Welcome to Void Stranger. Take note of the mural, and head to the stairs to continue.'
         Other images:
           - 'Mural'
         Dialogue:
@@ -36,6 +36,13 @@ Grey:
                 - '[Simply holding it makes you feel uneasy]'
                 - '[Something is wrong]'
       - Floor: '003'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Knock the backside of the chest three times in a row while it's closed...
+                - Then wait for three seconds...
+                - Something good should happen...
+                - Don't ask how I know...
         Steps:
           Chest: Rx5 Ux3 Rx3 U R Dx3 L Dx2 R U A L U Lx3 Ux2 Lx5 Dx2
       - Floor: '004'
@@ -53,35 +60,42 @@ Grey:
         Dialogue:
           Mysterious Merchant:
             - Mon:
-              - Ksi shi shi shi shi shi shi...
-              - Stranger, stranger...
-              - Are those locusts in your pocket or are you just happy to see me?
-              - How about a trade?
-              - As you might've notice, traveling through these halls can get rather tiresome.
-              - There are, however, shortcuts that few know about...
-              - If you hand over all your locusts, I'll give you a hint on how to find one of them!
-              - We wouldn't want that noggin of yours to go completely dull.
-              - So, how about it, stranger?
+                - Ksi shi shi shi shi shi shi...
+                - Stranger, stranger...
+                - Are those locusts in your pocket or are you just happy to see me?
+                - How about a trade?
+                - As you might've notice, traveling through these halls can get rather tiresome.
+                - There are, however, shortcuts that few know about...
+                - If you hand over all your locusts, I'll give you a hint on how to find one of them!
+                - We wouldn't want that noggin of yours to go completely dull.
+                - So, how about it, stranger?
           Trading your locusts:
             - Empty:
-              - '[You decide to trade your locusts for a tip]'
+                - '[You decide to trade your locusts for a tip]'
             - Mon:
-              - Ksi shi shi shi shi shi shi...
-              - Thank you.
-              - "Here's your tip, so listen carefully:"
-              - In the seventh room, just one more step beyond the exit...
-              - Try to keep this to yourself.
-              - It'll be more fun that way.
+                - Ksi shi shi shi shi shi shi...
+                - Thank you.
+                - "Here's your tip, so listen carefully:"
+                - In the seventh room, just one more step beyond the exit...
+                - Try to keep this to yourself.
+                - It'll be more fun that way.
           Talking after trade:
             - Mon:
-              - Now now, I never said finding those shortcuts would be easy.
-              - It wouldn't be any fun like that anyway.
-              - Ksi shi shi shi shi shi...
+                - Now now, I never said finding those shortcuts would be easy.
+                - It wouldn't be any fun like that anyway.
+                - Ksi shi shi shi shi shi...
             - Empty:
-              - '[The dubious merchant smirks, barely able to contain their laughter]'
-              - '[...]'
-              - '["In the seventh room, just one more step beyond the exit..."]'
-              - '[... Did they just swindle you?]'
+                - '[The dubious merchant smirks, barely able to contain their laughter]'
+                - '[...]'
+                - '["In the seventh room, just one more step beyond the exit..."]'
+                - '[... Did they just swindle you?]'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - A long time ago...
+                - These halls were governed by beings known as Void Lords...
+                - Their leader was Lord Add, The Beginning...
+                - Don't ask how I know...
       - Floor: '005'
       - Floor: '006'
       - Floor: '007'
@@ -98,7 +112,7 @@ Grey:
         Has:
           - Rock
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
                 - Not all Void Lords saw eye to eye...
                 - One day, a great battle erupted between two factions among the lords...
@@ -108,7 +122,7 @@ Grey:
       - Floor: '018'
       - Floor: '019'
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
                 - While the fighting had finally ended...
                 - Something unexpected happened...
@@ -131,6 +145,32 @@ Grey:
           - Solved
       - Floor: '023 (Crawlspace)'
         Notes: Congratulations on solving your first brand. The chest here contains the 'Void Memory'. It lets you speak to rocks and other creatures of the Void. Follow the rock's advice to leave. The exit will skip you to floor 025.
+        Dialogue:
+          Searching the Empty Chest:
+            - Empty:
+              - "[It's empty]"
+              - "[... Wait]"
+              - "[There's a note inside]"
+              - "[It's written in a language you can read]"
+              - "[It reads:]"
+            - Bee:
+              - My memory of you.
+              - With this, you should be able to hear the voice of fallen, all who were and those who are yet to be.
+              - And if someone else (that includes you, sis) is reading this...
+              - Scram. -Bee
+            - Empty:
+              - "[The message makes little sense to you]"
+
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - Placeholder
+          Already Solved:
+            - Rock:
+              - Oh, you solved it already...
+              - ...
+              - I guess I'm not needed here...
+              - Sigh...
         Type: Secret
         Other images:
           - Voidmem
@@ -138,166 +178,251 @@ Grey:
       - Floor: '024'
       - Floor: '025'
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
                 - So you can hear me...
                 - Not everyone around here is worth listening to...
-                - Us lonely ones are quite knowledgable though...
+                - Us lonely ones are quite knowledgeable though...
                 - Don't ask how I know...
       - Floor: '026'
       - Floor: '027'
+        Notes: There's a nun here! If you're quick, you can save her! Grab a block, form a bridge, then grab the block in the snake's path to turn it away.
+        Dialogue:
+          Nun's Plea:
+            - Nun:
+                - Please don't kill me!
+                - ...
+                - You aren't one of those things, are you?
+                - Sheesh.
+                - Scared me senseless right there you know.
+          Nun's Origins:
+            - Empty:
+                - '[The frightened lady seems to have regained her composure]'
+                - "[You ask her what she's doing here]"
+            - Nun:
+                - I was about to ask you the same thing.
+                - Honestly I can't even remember how I ended up in this place.
+                - What was I doing?
+                - Sister Ballbuster is gonna skin me alive if I don't show up soon.
+                - It's a pinch.
+          A Way Out:
+            - Nun:
+                - You wouldn't happen to know a way out?
+            - Empty:
+                - '[You tell her the only option is to keep moving]'
+            - Nun:
+                - And here I thought you looked so capable.
+                - Seriously, don't leave me hanging like that.
+                - Especially with those things crawling around.
+                - You've seen them too, haven't you?
+                - Or am I going crazy?
+          Nun 3:
+            - Nun:
+                - ...
+                - Wait.
+                - I think I remember now.
+                - I was working in the garden when I stumbled upon this strange pit.
+                - I'm sure it wasn't there before, its edges were too clean.
+                - Almost like it had appeared out of nowhere.
+                - I must have fallen and hit my head or something like that.
+                - Is this a dream?
+          Lull:
+            - Empty:
+                - '[She seems to be lost in thought.]'
+          Do you believe in ***?:
+            - Nun:
+                - ...
+                - Hey.
+                - Do you believe in ***?
+                - Sister Ballbuster never stops yapping about that stuff.
+                - You must repent, only then *** will save you.
+                - Despite how I may look, I never believed it.
+                - Sure I've made a few mistakes in my life...
+                - But it seems awfully convenient, don't you think?
+                - Just believe in *** and in the end everything will be alright.
+                - Like someone came up with it to have an easy way out.
+                - ...
+                - What am I even talking about anymore.
+                - Forget it.
+                - I need to prepare my sorry ass for a whooping.
+                - Oh, and if you happen to find the exit, let me know, thanks.
+          Lingering:
+            - Empty:
+                - '[You decide not to bother her for any longer]'
       - Floor: '028'
         Type: Birch
         Notes: Welcome to your first rest room. Sleeping at the birch tree will close your game and show you a dream when you restart. Also, you can reach the UI at the bottom of the screen here. You can swap your HP or locust count with the last two digits of the floor number to warp around. Just don't remove the "B" value...
-  - Lord Eus's Domain (029-056):
+  - Lord Eus's Domain (029-056) | The first traitorous Void Lord.:
       - Floor: '029'
         Type: Mural
         Dialogue:
           Broken Mural:
             - Empty:
-              - '[The mural crumbled away, revealing a small niche of...]'
-              - '[... What is this?]'
+                - '[The mural crumbled away, revealing a small niche of...]'
+                - '[... What is this?]'
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
-              - The tail of the traitorous lord connects the brand...
-              - At least when they were still alive...
-              - Although I'm not sure how that's supposed to work...
-              - Don't ask how I know...
+                - The tail of the traitorous lord connects the brand...
+                - At least when they were still alive...
+                - Although I'm not sure how that's supposed to work...
+                - Don't ask how I know...
       - Floor: '030'
+        Other images:
+          - meme
+          - Dead
         Type: Other
         Notes: life is meaningless... omg tail hi!!! :3
         Dialogue:
           Hitting Tail:
             - Tail:
-              - Be careful there.
-              - My scales are rather sensitive.
-              - Please come hither, if you wish to talk.
-              - I won't bite.
+                - Be careful there.
+                - My scales are rather sensitive.
+                - Please come hither, if you wish to talk.
+                - I won't bite.
           Tail's intro:
             - Tail:
-              - You're a brave little one.
-              - Usually your kind will stay far away when they see me.
-              - But I mean no harm, my eyes and ears are just rather poor.
-              - You're so small it's hard to talk with you if you don't step closer.
-              - ... Sorry, forgot my manners there for a moment.
-              - Pleased to meet you.
-              - My name is Tail.
+                - You're a brave little one.
+                - Usually your kind will stay far away when they see me.
+                - But I mean no harm, my eyes and ears are just rather poor.
+                - You're so small it's hard to talk with you if you don't step closer.
+                - ... Sorry, forgot my manners there for a moment.
+                - Pleased to meet you.
+                - My name is Tail.
           Tail (second conversation):
             - Tail:
-              - My scales tell me you aren't an ordinary lost soul.
-              - If you don't mind me prying...
-              - What's your purpose here?
-              - Maybe I could offer some help.
+                - My scales tell me you aren't an ordinary lost soul.
+                - If you don't mind me prying...
+                - What's your purpose here?
+                - Maybe I could offer some help.
           Tail's help:
             - Empty:
-              - "[You tell her you're looking for a young woman]"
+                - "[You tell her you're looking for a young woman]"
             - Tail:
-              - A woman did pass by recently.
-              - Unfortunately she ran away screaming before I could get a good look at her.
-              - You could try catching up to her.
-              - Although I can't guarantee you two will end up in the same place.
-              - These walls defy reason, they're ever moving.
-              - Or so I've been told.
+                - A woman did pass by recently.
+                - Unfortunately she ran away screaming before I could get a good look at her.
+                - You could try catching up to her.
+                - Although I can't guarantee you two will end up in the same place.
+                - These walls defy reason, they're ever moving.
+                - Or so I've been told.
           Tail's eggs:
             - Tail:
-              - Try not to shove those eggs too forcefully. They are close to hatching.
-              - ... I know what you're thinking.
-              - But I didn't lay them.
-              - They simply fall from above every now and then.
-              - Sometimes I catch a few and see what will come out of them.
-              - And if you listen closely, you can hear their thoughts.
-              - It's so exciting.
-              - Try it, maybe you'll be able to hear them too.
+                - Try not to shove those eggs too forcefully. They are close to hatching.
+                - ... I know what you're thinking.
+                - But I didn't lay them.
+                - They simply fall from above every now and then.
+                - Sometimes I catch a few and see what will come out of them.
+                - And if you listen closely, you can hear their thoughts.
+                - It's so exciting.
+                - Try it, maybe you'll be able to hear them too.
           Secret exits:
             - Empty:
-              - "[You ask her if she knows a different way forward]"
+                - '[You ask her if she knows a different way forward]'
             - Tail:
-              - Hmm, I've heard some floors have more than one exit.
-              - But they are hidden and only the remaining Void Lords know how to access them.
-              - You may be able to meet them if you venture deep enough.
-              - However, I doubt they'd be willing to share their secrets with you.
-              - Me?
-              - Imposing as I may look, I'm no Lord.
-              - And since that exit is a bit cramped for me...
-              - Here I remain.
+                - Hmm, I've heard some floors have more than one exit.
+                - But they are hidden and only the remaining Void Lords know how to access them.
+                - You may be able to meet them if you venture deep enough.
+                - However, I doubt they'd be willing to share their secrets with you.
+                - Me?
+                - Imposing as I may look, I'm no Lord.
+                - And since that exit is a bit cramped for me...
+                - Here I remain.
           Tail's Origin:
             - Empty:
-              - "[You ask her how she ended up here]"
-            - Tail: 
-              - You're a curious one.
-              - Are you sure you want to hear?
-              - It might take a moment and I wouldn't want to hold you for too long...
+                - '[You ask her how she ended up here]'
+            - Tail:
+                - You're a curious one.
+                - Are you sure you want to hear?
+                - It might take a moment and I wouldn't want to hold you for too long...
           Tail's Origin 2:
             - Empty:
-              - "[You tell her you'd like to hear her story]"
+                - "[You tell her you'd like to hear her story]"
             - Tail:
-              - Very well then.
-              - When Void was still in flux, when all eight Void Lords still roamed these parts...
-              - One of them, named Eus, ruled over this particular realm.
-              - They were assigned as the gatekeeper and the judge of the lost souls who arrived here.
-              - No soul could get past their judgement, no sin went unpunished.
-              - But as vigiliant and rigorous as they were, Eus was endlessly fascinated by sin.
-              - This fascination grew and grew, until Eus did the unthinkable and committed sin themself.
-              - What was the true extent of their sin, I'm not entirely sure.
-              - When the other lords learned of this transgression, their ranks divided.
-              - Some of them defended Eus, some reviled them.
-              - Soon arguments turned into fights and those fights turned into vicious battles.
-              - In the end, Eus was devoured so that nothing remained.
-              - Well, one part of Eus did manage to slither away unnoticed.
-              - It lay in silence, mindlessly consuming any stray souls that approached it.
-              - It only knew pain and hunger.
-              - But as its wounds began to heal, it learned to think. 
-              - It started to ponder why no amount of lost souls would satiate it. 
-              - Why it was unable to leave these walls. 
-              - Why it was allowed to live. 
-              - Eventually it accepted its rotten existence, knowing well that none of its questions would ever be answered.
-              - That's how I came to be.
-              - ...
+                - Very well then.
+                - When Void was still in flux, when all eight Void Lords still roamed these parts...
+                - One of them, named Eus, ruled over this particular realm.
+                - They were assigned as the gatekeeper and the judge of the lost souls who arrived here.
+                - No soul could get past their judgement, no sin went unpunished.
+                - But as vigiliant and rigorous as they were, Eus was endlessly fascinated by sin.
+                - This fascination grew and grew, until Eus did the unthinkable and committed sin themself.
+                - What was the true extent of their sin, I'm not entirely sure.
+                - When the other lords learned of this transgression, their ranks divided.
+                - Some of them defended Eus, some reviled them.
+                - Soon arguments turned into fights and those fights turned into vicious battles.
+                - In the end, Eus was devoured so that nothing remained.
+                - Well, one part of Eus did manage to slither away unnoticed.
+                - It lay in silence, mindlessly consuming any stray souls that approached it.
+                - It only knew pain and hunger.
+                - But as its wounds began to heal, it learned to think.
+                - It started to ponder why no amount of lost souls would satiate it.
+                - Why it was unable to leave these walls.
+                - Why it was allowed to live.
+                - Eventually it accepted its rotten existence, knowing well that none of its questions would ever be answered.
+                - That's how I came to be.
+                - ...
           Tail's Thanks:
             - Tail:
-              - Thank you.
-              - It's been a while since I've been able to share that story.
-              - I'm so glad I decided not to eat you.
-              - ...
-              - It's a joke.
-              - Your kind tastes terrible.
+                - Thank you.
+                - It's been a while since I've been able to share that story.
+                - I'm so glad I decided not to eat you.
+                - ...
+                - It's a joke.
+                - Your kind tastes terrible.
           Lingering:
             - Tail:
-              - You should probably keep moving if you wish to find the one you're looking for.
-              - While this realm has been in disarray ever since, don't let your guard down.
-              - Void Lords are one thing...
-              - But not all lost souls are quite as kind as you.
-              - Farewell.
-              - Maybe we'll meet again...
+                - You should probably keep moving if you wish to find the one you're looking for.
+                - While this realm has been in disarray ever since, don't let your guard down.
+                - Void Lords are one thing...
+                - But not all lost souls are quite as kind as you.
+                - Farewell.
+                - Maybe we'll meet again...
           Still Lingering:
             - Empty:
-              - "[You decide it's better to move on]"
+                - "[You decide it's better to move on]"
           Salacious Actions:
             - Empty:
-              - "[Why did you do that]"
-              - "[You feel ashamed]"
+                - '[Why did you do that]'
+                - '[You feel ashamed]'
           Trapped:
             - Tail:
-              - Looks like you accidentally blocked the exit.
-              - Let me help you.
-              - There you go.
+                - Looks like you accidentally blocked the exit.
+                - Let me help you.
+                - There you go.
           Revisit:
             - Tail:
-              - Oh, it's you again...
-              - ...
-              - I'm sorry.
-              - I was advised not to speak with you...
+                - Oh, it's you again...
+                - ...
+                - I'm sorry.
+                - I was advised not to speak with you...
           Lingering (Revisit):
             - Tail:
-              - ...
+                - ...
           Trapped (Revisit):
             - Tail:
-              - ... Sorry.
-              - I enjoyed talking with you.
-              - But I don't want to anger Bee either.
-              - Please leave...
+                - ... Sorry.
+                - I enjoyed talking with you.
+                - But I don't want to anger Bee either.
+                - Please leave...
       - Floor: '031'
+        Notes: If you killed Tail when revisiting her, Bee will appear here and taunt you.
+        Other images:
+          - Bee
+        Dialogue:
+          Killed Tail on Revisit:
+            - Bee:
+              - Hello!
+              - I didn't think you had it in you.
+              - But you actually killed that tattling snake.
+              - Stone cold!
+              - Honestly, I should've taken care of it myself...
+              - Not that the blabbermouth actually knew anything worthwhile.
+              - So whatever wisdom it might've shared with you...
+              - Take it with a grain of salt.
+              - I mean, how could it possibly have understood what was going on back then...
+              - ...
+              - I'm getting too soft.
+              - Go die or something.
+              - See ya!
       - Floor: '032'
       - Floor: '033'
       - Floor: '034'
@@ -311,17 +436,39 @@ Grey:
       - Floor: '042'
       - Floor: '043'
       - Floor: '044'
-      - Floor: '045' 
-      - Floor: '046' 
+      - Floor: '045'
+      - Floor: '046'
+        Notes: Take note of how Tail's tail connects this floor to next. "The tail of the traitorous lord connects the brand."
+        Steps:
+          Stairs: 'L Dx3 L A D R A R D'
       - Floor: '047'
-        Notes: Take note of how Tail's tail connects this floor to the previous. The tail of the traitorous lord connects the brand. 
-      - Floor: '048' 
-      - Floor: '049' 
-      - Floor: '050' 
-      - Floor: '051' 
-      - Floor: '052' 
-      - Floor: '053' 
+        Notes: You don't always have to grab the gem's tile to obtain it. If it's inside a glass tile, walking over it is enough.
+        Steps:
+          Stairs: 'L U Rx2 Ux2 A L A Lx2'
+      - Floor: '048'
+      - Floor: '049'
+      - Floor: '050'
+      - Floor: '051'
+        Void Memory:
+          Knowledgeable rock:
+            - Rock:
+                - They say the lord of this area was the one who instigated war between Void Lords...
+                - Lord Add didn't want to believe it...
+                - Yet their transgression couldn't be forgiven either...
+                - Don't ask how I know...
+      - Floor: '052'
+      - Floor: '053'
+        Type: Brand
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - The tail of the traitorous lord connects the brand...
+                - At least when they were still alive...
+                - Although I'm not sure how that's supposed to work...
+                - Don't ask how I know...
       - Floor: '054'
+        Steps:
+          Stairs: 'L A R Ux2 R U A R A D Lx2 Ux2 Rx2 A R U'
         Type: Puzzle
         Notes: A ball of light may sometimes appear here.
         Other images:
@@ -330,47 +477,128 @@ Grey:
         Void Memory:
           Light:
             - Empty:
-              - "[You gaze into the strange light]"
-              - "[You can barely make out two figures clad in white]"
-              - "[They're talking about something]"
+                - '[You gaze into the strange light]'
+                - '[You can barely make out two figures clad in white]'
+                - "[They're talking about something]"
             - Light:
-              - I'll give you another hint.
-              - No one is perfect without me.
-              - What am I?
+                - I'll give you another hint.
+                - No one is perfect without me.
+                - What am I?
+          Knowledgeable Rock:
+            - Rock:
+                - Once the battle between Void Lords ended...
+                - Lord Add personally consumed everything that remained of the traitorous lord...
+                - In away, they became one, like they had always hoped...
+                - Don't ask how I know...
       - Floor: '055'
+        Notes: There is a runaway bride here. Be careful not to shove her, or else she won't want to talk to you. Funnily enough, you can also use her to weigh down the button here.
+        Steps:
+          Stairs: 'Dx3 Lx2 R Dx2'
+        Dialogue:
+          Panic:
+            - Bride:
+                - What the...
+                - Who the hell are you?!
+                - And why are you giving away my hiding place?!
+                - Now those monsters will surely find us!
+                - Are you completely daft?!
+                - Oh no oh no oh no...
+          Immediate Danger:
+            - Empty:
+                - '[The well-dressed lady seems extremely distressed]'
+                - "[You do your best to explain that she isn't in immediate danger]"
+            - Bride:
+                - Excuse me?
+                - I ran into a giant snake just a moment ago!
+                - Don't even get me started on those smaller things!
+                - And my dress...
+                - It's ruined!
+          Fashion Sense:
+            - Empty:
+                - '[You remark that her extravagant dress will only get in the way]'
+            - Bride:
+                - There's no way I'm leaving it behind!
+                - Do you have any idea how much this cost?
+                - ...Judging by your rags, you most certainly do not.
+                - Seriously, what ARE you wearing?
+                - Urgh, this is a nightmare...
+          Told to Leave:
+            - Bride:
+                - Look, if you can't show me a way out of this ditch...
+                - Do me a favour and leave me alone, you eyesore.
+                - I don't need any help!
+                - Get lost!
+                - And buy some new clothes while at it!
+          Lingering:
+            - Empty:
+                - "[She doesn't want to talk to you anymore]"
+          Shoving:
+            - Bride:
+                - What the hell?!
+          Shoving repeatedly:
+            - Bride:
+                - What are you doing all of a sudden?!
+                - Leave me alone!
+          Attempting to talk after shoving once:
+            - Empty:
+                - "[She's become cautious of you]"
       - Floor: '056'
-  - Lord Bee's Domain (057-084):
+  - Lord Bee's Domain (057-084) | The Craving.:
       - Floor: '057'
+        Type: Mural
+        Other images:
+          - Mural
+        Void Memory:
+          Mural:
+            - Empty:
+                - '[The mural is filled with inscriptions]'
+                - '[It reads:]'
+                - 'ONLYACRAVINGREMAINS'
+                - '[...Were you always able to read this?]'
       - Floor: '058'
       - Floor: '059'
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
                 - Here lies the domain of Lord Bee, The Craving...
                 - A true trickster even among the Void Lords...
                 - And a devoted admirer of Lord Add...
                 - Don't ask how I know...
       - Floor: '060'
+        Steps:
+          Stairs: "Ux5 Lx2"
+          Chest: "Ux2 D R U L A A Rx9 Ux2 L Dx3 L Dx2 R U A Lx7 Ux3 L"
       - Floor: '061'
+        Steps:
+          Stairs: "L Dx3 Lx3 Rx3 Dx3"
       - Floor: '062'
+        Steps:
+          Stairs: "Rx2 U R U A U R Dx2 L U A D L Rx2 U L A U L Rx2 D L A U D A R Dx3 R"
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
-              - Lord Add was quite fond of dried locust idols and Lord Bee often enjoyed them alongside their lord...
-              - Even though Lord Bee could neither taste anything nor ever feel content...
-              - They would always treasure those little snacking moments...
-              - Don't ask how I know...
+                - Lord Add was quite fond of dried locust idols and Lord Bee often enjoyed them alongside their lord...
+                - Even though Lord Bee could neither taste anything nor ever feel content...
+                - They would always treasure those little snacking moments...
+                - Don't ask how I know...
       - Floor: '063'
+        Steps:
+          Stairs: "Ux2 Dx9 R U A L U Lx3 A R A Lx2 A Lx3"
       - Floor: '064'
       - Floor: '065'
+        Steps:
+          Stairs: "Lx3 U Lx5 D Lx8"
+          Chest: "Lx3 Ux2 Lx3 D L U Lx2 Dx3 Lx2 Dx2 Rx2 U A Lx3"
       - Floor: '066'
+        Steps:
+          Stairs: "Rx2 D Rx5 Lx5 Ux2 Rx2 L A R A Rx3 Dx2 Ux2 Rx4 Lx2 R A Lx3 A L D L"
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
-              - Lord Bee would regularly boast how cruel they were towards mortals...
-              - But now that I think about it, I never saw them hurt anyone...
-              - At the very least, I doubt they truly enjoyed it as much as they let on.
-              - Don't ask how I know...
+                - Lord Bee would regularly boast how cruel they were towards mortals...
+                - But now that I think about it, I never saw them hurt anyone...
+                - At the very least, I doubt they truly enjoyed it as much as they let on.
+                - Don't ask how I know...
       - Floor: '067'
         Type: Brand
         Notes: This brand room is a lot easier to solve if you lead the bull to the top-right corner and seal it away there.
@@ -380,59 +608,106 @@ Grey:
         Type: Secret
         Notes: If you found your way here yourself, then you have my sincerest congratulations! If you found your way here after completing a run of the game, as I did, then you have my sincerest sympathies. The chest here contains the 'Void Wings', which let you fly over a single empty tile at a time. It's a lot more powerful than it sounds! Going forward, this guide will assume you've acquired the Void Wings. The exit will skip you forward to 071.
       - Floor: '068'
+        Notes: The bull will stop chasing you if you pass over a glass tile, as it cracks away and it can no longer pursue you.
+        Steps:
+
+          Stairs: "Rx10"
       - Floor: '069'
       - Floor: '070'
+        Notes: A hungry man appears here. You can give him a locust idol if you're feeling kind.
+        Dialogue:
+          Asking for food:
+            - Blank:
+              - "[A scrawny man stands before you]"
+            - Hungry:
+              - Smell...
+              - Food...
+              - Give.
+            - Blank:
+              - "[It seems he is looking for food]"
+              - "[Maybe you should give something to him?]"
+          Giving a locust idol:
+            - Blank:
+              - "[You hand over one of your locust idols]"
+              - "[The man grabs it without hesitation, gulping it down in an instant]"
+            - Hungry:
+              - Taste...
+              - Nothing...
+              - More...
+              - Give more.
       - Floor: '071'
+        Steps:
+          Stairs: "Dx2 R D L U L A D Rx2 U D L U A Dx3 R A Ux3 D L U L A Dx3 L"
       - Floor: '072'
       - Floor: '073'
-      - Floor: '074' 
-      - Floor: '075' 
-      - Floor: '076' 
-      - Floor: '077' 
-      - Floor: '078' 
-      - Floor: '079' 
+      - Floor: '074'
+      - Floor: '075'
+      - Floor: '076'
+      - Floor: '077'
+      - Floor: '078'
+      - Floor: '079'
       - Floor: '080'
         Has:
           - Gem
-      - Floor: '081' 
-      - Floor: '082' 
-      - Floor: '083' 
-      - Floor: '084' 
-  - Mon's Domain (085-112):
+      - Floor: '081'
+      - Floor: '082'
+      - Floor: '083'
+      - Floor: '084'
+  - Lord Mon's Domain (085-112) | The covetous lord.:
       - Floor: '085'
+        Type: Mural
+        Other images:
+          - Mural
+          - Broken
       - Floor: '086'
+        Steps:
+          Stairs: "L R A Lx2 U Lx3 D Lx5 U D A Dx2"
       - Floor: '087'
       - Floor: '088'
+        Steps:
+          Chest: "R D A R U A L U R A Dx2 A Rx10 U A D Lx3 R A Lx9 Ux2 R A Dx2 R U L A Rx8 A Rx2"
+          Stairs: "R D A R U A L U R A Dx2 A Rx8 A Lx9 Ux2 R A Dx2 R U L A Rx8 A Rx2"
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
-              - The covetous lord often followed the traitorous lord around...
-              - They were enamored by their scales...
-              - Maybe this vacuous reason was enough for them to side with the traitorous lord...
-              - Don't ask how I know.
+                - The covetous lord often followed the traitorous lord around...
+                - They were enamored by their scales...
+                - Maybe this vacuous reason was enough for them to side with the traitorous lord...
+                - Don't ask how I know.
       - Floor: '089'
         Type: Brand
+        Steps:
+          Stairs: "D Ux4 Lx2 A Dx4 R A D Rx3 U L D"
       - Floor: '090'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - Don't look the covetous lord directly in the eye, they used to say...
+              - Their gaze would turn anyone into pure gold...
+              - What a terrible fate...
+              - Don't ask how I know...
       - Floor: '091'
-      - Floor: '092' 
-      - Floor: '093' 
-      - Floor: '094' 
+        Steps:
+          Chest: "D Rx4 Ux3 Rx2 D L U R A L D A Dx3 U Lx3 D L A Rx4 U A Lx3 Ux3 Lx5 U R A L D Lx8 U L U"
+      - Floor: '092'
+      - Floor: '093'
+      - Floor: '094'
       - Floor: '095'
-        Notes: A tadpole may appear here, giving lore similarly to the trilobite from B020.
+        Notes: A tadpole may appear here, speaking of similar lore to the trilobite.
         Other images:
           - Tadpole
         Dialogue:
           Tadpole:
             - Tadpole:
-              - EVEN AFTER THEY LEARNED HOW TO CREATE SENTIENT LIFE
-              - ADD WAS NOT PLEASED WITH THEIR RESULTS
-              - SO THEY CHANGED THEIR APPROACH
-              - WE DO NOT KNOW WHAT THEY DID DIFFERENTLY
-              - BUT EVEN ADD UNDERSTOOD SOMETHING WAS WRONG
-              - WHEN THEY CREATED MON 
-              - AND EVEN WHEN ADD WOULD LATER RESORT TO THIS METHOD
-              - MOST WOULD STILL SAY
-              - THAT MON REMAINED THE MOST REPUGNANT ONE OF ALL THOSE WHO WERE CREATED
+                - EVEN AFTER THEY LEARNED HOW TO CREATE SENTIENT LIFE
+                - ADD WAS NOT PLEASED WITH THEIR RESULTS
+                - SO THEY CHANGED THEIR APPROACH
+                - WE DO NOT KNOW WHAT THEY DID DIFFERENTLY
+                - BUT EVEN ADD UNDERSTOOD SOMETHING WAS WRONG
+                - WHEN THEY CREATED MON
+                - AND EVEN WHEN ADD WOULD LATER RESORT TO THIS METHOD
+                - MOST WOULD STILL SAY
+                - THAT MON REMAINED THE MOST REPUGNANT ONE OF ALL THOSE WHO WERE CREATED
       - Floor: '096'
       - Floor: '097'
       - Floor: '098'
@@ -441,36 +716,443 @@ Grey:
       - Floor: '101'
       - Floor: '102'
       - Floor: '103'
+        Steps:
+          Stairs: "L A Rx2 Dx2 A U R D L D L D"
       - Floor: '104'
       - Floor: '105'
         Void Memory:
-          Knowledgable Rock:
+          Knowledgeable Rock:
             - Rock:
-              - Even the covetous lord showed interest in locust idols...
-              - But the covetous one didn't eat them, they simply liked collecting them...
-              - Have too many locusts and they would surely show up, bargaining for some...
-              - Don't ask how I know...
+                - Even the covetous lord showed interest in locust idols...
+                - But the covetous one didn't eat them, they simply liked collecting them...
+                - Have too many locusts and they would surely show up, bargaining for some...
+                - Don't ask how I know...
       - Floor: '106'
       - Floor: '107'
-      - Floor: '108' 
+      - Floor: '108'
       - Floor: '109'
       - Floor: '110'
+        Notes: This is where the thief meets her end. Even if you forgive her, she's blocking the way forward...
       - Floor: '111'
       - Floor: '112'
+  - Lord Tan's Domain (113-140) | Even when the battle subsided, their rage wouldn't end...:
       - Floor: '113'
+        Type: Mural
         Other images:
           - Mural
-  - Lord Tan's Domain (113-140):
-  - Third Traitor's Domain (141-168):
-  - Lord Lev's Domain (169-196):
+      - Floor: '114'
+        Type: Other
+      - Floor: '115'
+      - Floor: '116'
+      - Floor: '117'
+      - Floor: '118'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Although shunned, Lord Tan didn't mind being alone...
+                - In fact, they preferred it...
+                - Lord Tan didn't get along with others...
+                - Don't ask how I know...
+      - Floor: '119'
+      - Floor: '120'
+      - Floor: '121'
+      - Floor: '122'
+      - Floor: '123'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - During the battle, Lord Tan was unstoppable...
+                - Even when the battle subsided, their rage wouldn't end...
+                - Thus Lord Add had no other option, but to strike their ally down...
+                - Don't ask how I know...
+      - Floor: '124'
+      - Floor: '125'
+      - Floor: '126'
+      - Floor: '127'
+      - Floor: '128'
+      - Floor: '129'
+      - Floor: '130'
+      - Floor: '131'
+      - Floor: '132'
+        Steps:
+          Stairs: "R Dx2 R Ux2 Rx3 D Lx2 D Rx2 U R Ux3 R Dx2 R Ux3 Rx5"
+      - Floor: '133'
+      - Floor: '134'
+      - Floor: '135'
+      - Floor: '136'
+      - Floor: '137'
+        Type: Brand
+      - Floor: '137 (Crawlspace)'
+        Type: Boss
+        Notes: A Void Sword! Find some meat!
+      - Floor: '138'
+        Steps:
+          Stairs: "U A D L A Lx2 U A L A Lx2 D A U L A L Ux2 A Lx2 Ux2 A U Rx3 A D Rx4 A Rx3"
+      - Floor: '139'
+        Other images:
+          - Art
+        Notes: There is a lost girl here. Use the glass to turn around and face her, lest you accidentally murder her. But... those statues will only vanish when everything else is dead.
+        Dialogue:
+          Stray intro:
+            - Empty:
+              - "[A young girl sits on the floor]"
+              - "[As your eyes meet, she winces]"
+            - Stray:
+              - What are you looking at?
+          A Creep?:
+            - Stray:
+              - Are you one of those creeps?
+            - Empty:
+              - "[You tell her you're not going to hurt her]"
+            - Stray:
+              - I...
+              - I'm not afraid of you.
+              - Leave me alone.
+          Ignoring:
+            - Empty:
+              - "[The girl pouts, ignoring you]"
+              - ...
+              - "[... She sneakily gazes up to you but averts her eyes soon after]"
+          Lingering:
+            - Empty:
+              - "[You tell yourself you're not going to hurt her]"
+      - Floor: '140'
+        Type: Birch
+  - Lord Gor's Domain (141-168) | The third traitorous Void Lord.:
+      - Floor: '141'
+      - Floor: '142'
+      - Floor: '143'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - So the big head finally got their wish...
+                - ...
+                - You did what you had to do...
+                - Don't ask how I know...
+      - Floor: '144'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Here lies the domain of the third traitorous Void Lord...
+                - Whose feeble apathy is second only to their indecisiveness...
+                - Shall their name never grace these halls again...
+                - Don't ask how I know...
+      - Floor: '145'
+      - Floor: '146'
+      - Floor: '147'
+      - Floor: '148'
+        Notes: Push the rock to the right twice to align yourself.
+      - Floor: '149'
+      - Floor: '150'
+      - Floor: '151'
+      - Floor: '152'
+      - Floor: '153'
+      - Floor: '154'
+      - Floor: '155'
+      - Floor: '156'
+      - Floor: '157'
+      - Floor: '158'
+      - Floor: '159'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - At the decisive moment, when Void Lords had to choose their side in the great clash...
+                - The feeble Void Lord remained indecisive...
+                - But one either stands with Lord Add or...
+                - Don't ask how I know...
+      - Floor: '160'
+      - Floor: '161'
+      - Floor: '162'
+      - Floor: '163'
+      - Floor: '164'
+      - Floor: '165'
+      - Floor: '166'
+      - Floor: '167'
+      - Floor: '168'
+  - Lord Lev's Domain (169-196) | The Devious.:
+      - Floor: '169'
+      - Floor: '170'
+      - Floor: '171'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Here lies the domain of Lord Lev, The Devious...
+                - The unloving vassal of the Void...
+                - Their devotion rivaled even Lord Add's...
+                - Don't ask how I know...
+      - Floor: '172'
+      - Floor: '173'
+      - Floor: '174'
+      - Floor: '175'
+      - Floor: '176'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - So fierce was Lord Lev's might...
+                - Few sinners would make it past their judgement...
+                - To see the final depths of Void...
+                - Don't ask how I know...
+      - Floor: '177'
+      - Floor: '178'
+      - Floor: '179'
+      - Floor: '180'
+      - Floor: '181'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Lord Lev was always loyal to Lord Add...
+                - Even when the battle pitted them against their own sister...
+                - ... Lord Lev was always loyal to Lord Add...
+                - Don't ask how I know...
+      - Floor: '182'
+      - Floor: '183'
+      - Floor: '184'
+      - Floor: '185'
+      - Floor: '186'
+      - Floor: '187'
+      - Floor: '188'
+      - Floor: '189'
+      - Floor: '190'
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - The death of their sister left Lord Lev in such a distraught state...
+                - That Lord Lev, who had always been unwavering in their devotion...
+                - Took their own life...
+                - Don't ask how I know...
+      - Floor: '191'
+      - Floor: '192'
+      - Floor: '193'
+        Notes: The rocks here are intangible. You can walk right through them and fall down the hole they're hiding.
+      - Floor: '193 (Crawlspace)'
+        Type: Secret
+        Notes: Leads to Mr Mon's Wild Ride. If you take the stairs, you skip ahead to 195.
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - That hole...
+                - Do not enter it...
+                - You'll surely regret it...
+                - Don't ask how I know...
+      - Floor: '194'
+      - Floor: '195'
+      - Floor: '196'
   - Lord Cif's Domain (197-224):
-  - Alphabet (228-253):
-  - (Presumably) Mon's Wild Ride:
-  - Beneath the Void:
-      - Floor: '??? - 1'
-      - Floor: '??? - White Lord'
-  - DIS OS Error:
+      - Floor: '197'
+        Type: Mural
+        Note: The mural here is inaccessible, but the rock reassures you the brand can be found elsewhere in this domain.
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - The brand of Lord Cif...
+                - Don't worry, it's already been carved...
+                - But what room was it...
+                - I can't remember the number, but it must be somewhere in their domain...
+      - Floor: '198'
+      - Floor: '199'
+      - Floor: '200'
+      - Floor: '201'
+      - Floor: '202'
+      - Floor: '203'
+      - Floor: '204'
+      - Floor: '205'
+      - Floor: '206'
+      - Floor: '207'
+      - Floor: '208'
+      - Floor: '209'
+      - Floor: '210'
+      - Floor: '211'
+      - Floor: '212'
+      - Floor: '213'
+      - Floor: '214'
+      - Floor: '215'
+      - Floor: '216'
+      - Floor: '217'
+      - Floor: '218'
+      - Floor: '219'
+      - Floor: '220'
+      - Floor: '221'
+      - Floor: '222'
+      - Floor: '223'
+        Type: Brand
+        Notes: Not normally accessible. You must locust skip at the rest room on B224.
+      - Floor: '223 (Crawlspace)'
+        Notes: A workshop, perhaps? The limiter statue is still active, despite its condition, so be careful.
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+                - Destroy what remains of the traitors...
+                - Return to zero, zero, zero...
+                - Then you'll find Lord Add's final treasure, one they hid even from their allies...
+                - The key that engraves the brand of DIS...
+      - Floor: '224'
+  - Deep Void | Place your faith and embrace the void.:
+      - Floor: '225'
+        Type: Mural
+        Other images:
+          - Mural
+        Dialogue:
+          Mural:
+            - Empty:
+                - '[The mural is completely blank...]'
+      - Floor: '226'
+      - Floor: '227'
+        Type: Brand
+      - Floor: '228'
+        Type: Alphabet
+      - Floor: '229'
+        Type: Alphabet
+      - Floor: '230'
+        Type: Alphabet
+      - Floor: '231'
+        Type: Alphabet
+      - Floor: '232'
+        Type: Alphabet
+      - Floor: '233'
+        Type: Alphabet
+      - Floor: '234'
+        Type: Alphabet
+      - Floor: '235'
+        Type: Alphabet
+      - Floor: '236'
+        Type: Alphabet
+      - Floor: '237'
+        Type: Alphabet
+      - Floor: '238'
+        Type: Alphabet
+      - Floor: '239'
+        Type: Alphabet
+      - Floor: '240'
+        Type: Alphabet
+      - Floor: '241'
+        Type: Alphabet
+      - Floor: '242'
+        Type: Alphabet
+      - Floor: '243'
+        Type: Alphabet
+      - Floor: '244'
+        Type: Alphabet
+      - Floor: '245'
+        Type: Alphabet
+      - Floor: '246'
+        Type: Alphabet
+      - Floor: '247'
+        Type: Alphabet
+      - Floor: '248'
+        Type: Alphabet
+      - Floor: '249'
+        Type: Alphabet
+      - Floor: '250'
+        Type: Alphabet
+      - Floor: '251'
+        Type: Alphabet
+      - Floor: '252'
+        Type: Alphabet
+      - Floor: '253'
+        Type: Alphabet
+      - Floor: '254'
+        Type: Birch
+      - Floor: '255'
+        Notes: Nowhere to go but down, and face your judgement...
+        Other images:
+          - Cutscene
+          - Credits
+        Steps:
+          Judgement: 'A D D'
+  - VOIDED | Have you lost something very important to you?:
+    - Floor: 'VOID (225)'
+      Type: Mural
+    - Floor: 'VOID (226)'
+    - Floor: 'VOID (Birch)'
+      Type: Birch
+      Other images:
+        - Dream
+        - Withered
+      Dialogue:
+        Birch Tree:
+          - Empty:
+            - placeholder
+        Dream:
+          - Empty:
+            - No matter how much you sleep...
+            - Your eyes feel heavy.
+            - Dreams elude you.
+            - Can you remember why you are here?
+            - Or have you lost something very important to you?
+            - Without it, you'll never reach the end.
+            - The envious one has poisoned your body, your mind, your devotion.
+            - Seek the dark idol to cleanse yourself, to return where you started.
+    - Floor: 'VOID (Dark Idol)'
+      Notes: Entering a staircase while a dark idol looms over it will return you to the start of the game, cleansed of VOID. But... if you were to move the staircase...?
+      Type: Other
+
+  - Abyss | Only a memory will remain.:
+      - Floor: 'Abyss (Entrance)'
+        Notes: A very strange place. All is silent, and the tiles rise as you approach. Do not linger too long, or else the tentacles will slowly approach... On your way to your goal is a randomized series of rooms, and if you die at any point, your game will crash, returning you to the birch tree.
+        Other images:
+          - Tentacles
+        Void Memory:
+          Knowledgeable Rock:
+            - Rock:
+              - I'm sorry, stranger...
+              - What you're searching for...
+              - Can't be found here...
+              - Don't ask how I know...
+      - Floor: 'Abyss (White Lord)'
+        Type: Secret
+        Dialogue:
+          White Lord intro:
+            - Empty:
+              - Why didn't you heed my warning...
+              - Or maybe you couldn't hear me before...
+              - ...
+              - Long I've watched over these halls...
+              - Guiding, pondering, recalling...
+              - Your journey isn't over yet...
+              - Don't ask how I know...
+          White Lord's offer:
+            - Empty:
+              - My memory...
+              - Can send you back...
+              - And take all of your burden...
+              - Your choices...
+              - Away...
+              - Will you accept...?
+            - Empty:
+              - Begin anew?
+              - (This will erase your progress)
+          Accept:
+            - Empty:
+              - Very well...
+              - Just stay calm...
+              - Do not fret...
+              - Even when the stars die out...
+              - Our memories...
+              - Make their light...
+            - Empty:
+              - Endless.
+
+
+  - Mister Mon's Wild Ride | You'll surely regret it...:
+  - 'DIS OS Error | >FATAL ERROR: BR NULL':
       - Floor: 'Giant Carcass'
+        Notes: A giant carcass can be found by following the sound of dull howl. Punching it 10 times will cause a bell to toll for thee. If you accept its call, a cutscene showing an old Dr. Lily in a research facility that appears to be in the Abyss. Afterwards, the game will reset.
+        Other images:
+          - Cutscene
+          - Title
+        Dialogue:
+          Giant Carcass:
+            - Empty:
+              - "[A giant carcass]"
+              - "[A dull howl escapes from its decaying cracks]"
+              - "[It won't stop]"
+          Punching the Giant Carcass:
+            - Empty:
+              - "[A bell tolls for you]"
+              - "[Will you accept its call?]"
+          Accepting the Call: 
+            - Empty:
+              - "[And so you'll leave this waking world]"
         Type: ERR
       - Floor: 'Chaser'
         Type: ERR

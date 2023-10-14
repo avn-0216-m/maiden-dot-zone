@@ -28,9 +28,13 @@
                 {% for character, domains in root.items() %}
                     {% if domains %}
                         {% for domain in domains %}
-                            {% for domain_name, domain_floors in domain.items() %}
+                            {% for domain_name_and_subtitle, domain_floors in domain.items() %}
                             <div class="domainContainer">
-                            <div class="voidBox domainHeader"><p>{{domain_name}}</p></div>
+                            <div class="voidBox domainHeader">
+                                {% set lines = domain_name_and_subtitle.split(" | ") %}
+                                <h1 class="title">{{lines[0]}}</h1>
+                                <p>{{lines[1]}}</p>
+                            </div>
 
                             {% if domain_floors %}
                                 {% for floor in domain_floors %}
