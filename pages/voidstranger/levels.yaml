@@ -1113,7 +1113,11 @@ Grey:
               - They would simply fulfill their role without any enthusiasm, just so the other lords wouldn't bother them...
               - Don't ask how I know...
       - Floor: '149'
+        Steps:
+          Stairs: U R Ux4 Rx2 Dx2 Lx2 Ux2 R L A Rx2 Dx2 Lx2 Dx2 A D
       - Floor: '150'
+        Steps:
+          Stairs: L R A Dx2 R Dx2 A D L Dx2 R
       - Floor: '151'
       - Floor: '152'
       - Floor: '153'
