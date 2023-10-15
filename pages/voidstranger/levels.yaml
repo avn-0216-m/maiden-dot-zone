@@ -834,6 +834,8 @@ Grey:
               - Don't ask how I know...
       - Floor: '116'
       - Floor: '117'
+        Steps:
+          Stairs: R D A U L R A Rx2 Lx2 R A L A R L R Lx2 Dx2 R D
       - Floor: '118'
         Void Memory:
           Knowledgeable Rock:
