@@ -1101,6 +1101,8 @@ Grey:
                 - Don't ask how I know...
       - Floor: '145'
       - Floor: '146'
+        Steps:
+          Stairs: U Lx2 Dx2 A R U A U L D A U R A R U
       - Floor: '147'
       - Floor: '148'
         Notes: Push the rock to the right twice to align yourself.
