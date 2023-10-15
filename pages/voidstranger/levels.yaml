@@ -1154,6 +1154,8 @@ Grey:
         Steps:
           Stairs: R U Rx2 Ux2 L A U A Ux3
       - Floor: '159'
+        Steps:
+          Stairs: Dx2 Lx2 Ux2 R Lx4 Ux2
         Void Memory:
           Knowledgeable Rock:
             - Rock:
