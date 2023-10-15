@@ -915,6 +915,8 @@ Grey:
           Stairs: R A Lx3 D L Dx4 Ux2 Rx4 Ux3 Lx2 D L Dx2 Rx3 Lx3 D Ux3 R U Rx3 A L Dx3 Ux2 D U D Ux2 R L Dx3 Rx3 A L Ux3 Rx4 Ux2 Dx2 Lx2 R L Rx2 Ux2 Lx4 Dx3 R A R U R Dx4 L U A Dx2 Ux2 R Lx6 Ux2 R U Rx6 Dx2 L A D L A Dx2 Rx4 A Rx2
       - Floor: '137'
         Type: Brand
+        Other images:
+          - Solved
       - Floor: '137 (Crawlspace)'
         Type: Boss
         Notes: A Void Sword! Find some meat!
@@ -1179,6 +1181,8 @@ Grey:
         Steps:
           Stairs: R Dx3 L Ux4 R
       - Floor: '166'
+        Steps:
+          Stairs: Ux2 D L D R D
       - Floor: '167'
         Notes: Logically speaking, this puzzle is impossible. Try appealing to your opposition's emotions instead. Talk to them.
         Dialogue:
