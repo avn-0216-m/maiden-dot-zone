@@ -1029,6 +1029,61 @@ Grey:
             - Empty:
               - "[You received a locust idol]"
               - "[... Where do they keep these things?]"
+          Using the Staff:
+            - Gor:
+              - That staff you wield...
+              - Where did you get it?
+              - ... I guess it's not important.
+              - It's called the Void Rod.
+              - It was a prized possession of Lord Add.
+              - She sort of ran this place for a while.
+              - Maybe...
+              - Alright, stranger.
+              - I've got a request.
+              - Will you hear it?
+          Gor's Request:
+            - Empty:
+              - "[You decide to hear out their request]"
+            - Gor:
+              - Lord Add is the one I can thank for my current predicament.
+              - Long ago, they and the other Lords had a big fight.
+              - I didn't want anything to do with it but was pulled in regardless.
+              - As a punishment, Add cut off my body.
+              - So when I heard they had left this realm, I felt hopeless.
+              - For only they could grant me my eternal rest.
+              - Some rumour said Add hid their treasures within these walls before they left, but I couldn't bring myself to believe it...
+              - Until you showed up.
+              - I want you to find Add's sword, the Void Blade.
+              - Only that can kill me.
+              - If I had to guess, you probably won't just find it lying about.
+              - Add most likely hid it in one of the secret passageways.
+              - Mere mortals can't normally access them...
+              - That's where that Void Rod comes in.
+              - You should be able to enter the hidden routes with a special incantation.
+              - "Make sure to remember it:"
+              - '"Where nothingness engraves the brand of Lord..."'
+              - '"... Where the path to damnation rests within you..."'
+              - '"... Place your faith and embrace the Void."'
+        Gor's Request 2:
+          - Gor:
+            - Once you find the Void Blade, make sure to return here.
+            - Then I can finally have my rest...
+        The Incantation:
+          - Empty:
+            - "[You tell them you've got no idea how to use the incantation]"
+          - Gor:
+            - EEEEEEEEEEEEEEEEEEEEE?!
+            - What do you mean you've got no idea?!
+            - You can use the Void Rod, can't you?
+            - I got my hopes up...
+            - ... For nothing?!
+            - ...
+            - Whatever.
+            - Should've known better...
+        Hopeless:
+          - Gor:
+            - Get lost.
+            - I'm in a bad mood now...
         Void Memory:
           Knowledgeable Rock:
             - Rock:
