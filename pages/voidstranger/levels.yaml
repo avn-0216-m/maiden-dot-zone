@@ -1119,7 +1119,11 @@ Grey:
         Steps:
           Stairs: L R A Dx2 R Dx2 A D L Dx2 R
       - Floor: '151'
+        Steps:
+          Stairs: D L D R D Ax2 Dx2
       - Floor: '152'
+        Steps:
+          Stairs: U Rx3 A D Rx2 U Rx2 D U A Ux4 Lx4 R A L A Lx3
       - Floor: '153'
       - Floor: '154'
         Notes: A metroid may appear here, sharing lore instead of sucking your brain to death.
