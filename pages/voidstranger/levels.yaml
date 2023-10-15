@@ -794,6 +794,8 @@ Grey:
                 - Have too many locusts and they would surely show up, bargaining for some...
                 - Don't ask how I know...
       - Floor: '106'
+        Steps:
+          Stairs: D L R A U R Lx2 R A Rx2 Lx3 A Rx2 A L A Rx2 D R L A Rx2 Lx2 Dx2 U L R D Rx2 Dx4 Rx2
       - Floor: '107'
       - Floor: '108'
       - Floor: '109'
@@ -1372,7 +1374,10 @@ Grey:
       Dialogue:
         Birch Tree:
           - Empty:
-            - placeholder
+            - "[A lone birch tree stands in the void]"
+            - "[This area feels safe]"
+            - "[And since you've been travelling for quite some time already...]"
+            - "[Would you like to rest for now?]"
         Dream:
           - Empty:
             - No matter how much you sleep...
@@ -1383,6 +1388,9 @@ Grey:
             - Without it, you'll never reach the end.
             - The envious one has poisoned your body, your mind, your devotion.
             - Seek the dark idol to cleanse yourself, to return where you started.
+        Decline:
+          - Empty:
+            - "[You decide to move on]"
     - Floor: 'VOID (Dark Idol)'
       Notes: Entering a staircase while a dark idol looms over it will return you to the start of the game, cleansed of VOID. But... if you were to move the staircase...?
       Type: Other
