@@ -168,7 +168,16 @@ Grey:
         Void Memory:
           Knowledgeable Rock:
             - Rock:
-              - Placeholder
+              - Knock that chest over there six times in a row...
+              - Remain still and wait for six seconds...
+              - The exit will reveal itself...
+              - Don't ask how I know..
+          After Solve:
+            - Rock:
+              - So you did it...
+              - Thank you for your trust...
+              - Well...
+              - Good luck...
           Already Solved:
             - Rock:
               - Oh, you solved it already...
@@ -674,6 +683,8 @@ Grey:
               - Lord Bee's prominent smile remained...
               - As if nothing had happened...
               - Don't ask how I know...
+      - Floor: '083 (Crawlspace)'
+        Notes: The stairs here lead to B109.
       - Floor: '084'
         Type: Birch
   - Lord Mon's Domain (085-112) | The second traitorous Void Lord.:
@@ -1086,6 +1097,24 @@ Grey:
           - Gor:
             - Get lost.
             - I'm in a bad mood now...
+        Revisit With Void Sword:
+          - Bee:
+            - Hello!
+            - Are you by any chance looking for the fatty head?
+            - I just got rid of them.
+            - Oh don't get me wrong.
+            - They aren't dead.
+            - I couldn't kill that lazy donkey even if I tried.
+            - Besides...
+            - Death would be way too kind for someone who freely tattles about our secrets.
+            - Yes.
+            - I know you've been snooping around in places you don't belong, mortal.
+            - Trust me, if it was up to me...
+            - YOU'D BE DEAD MEAT BY NOW.
+            - You may consider yourself lucky for now.
+            - But who knows...
+            - In the end you might wish you were dead anyway.
+            - See ya!
         Void Memory:
           Knowledgeable Rock:
             - Rock:
@@ -1412,6 +1441,8 @@ Grey:
         Type: Alphabet
       - Floor: '242'
         Type: Alphabet
+        Other images:
+          - takethel
       - Floor: '243'
         Type: Alphabet
       - Floor: '244'
@@ -1475,7 +1506,6 @@ Grey:
     - Floor: 'VOID (Dark Idol)'
       Notes: Entering a staircase while a dark idol looms over it will return you to the start of the game, cleansed of VOID. But... if you were to move the staircase...?
       Type: Other
-
   - Abyss | Only a memory will remain.:
       - Floor: 'Abyss (Entrance)'
         Notes: A very strange place. All is silent, and the tiles rise as you approach. Do not linger too long, or else the tentacles will slowly approach... On your way to your goal is a randomized series of rooms, and if you die at any point, your game will crash, returning you to the birch tree.
@@ -1620,3 +1650,86 @@ Grey:
         Notes: Accessible by entering your own brand in any of the brand rooms. I find it easiest to do in DIS's brand room (B227). Punching the womb will light up the screen.
 Lillie:
 Cif:
+  - Lord Eus's Domain (029-056) | The first traitorous Void Lord.:
+    - Floor: '030'
+      Dialogue:
+        Tail Intro:
+          - TrueTail:
+            - Cif?
+            - Is that you?
+          - Cif:
+            - Long time no see, Tail.
+          - TrueTail:
+            - Indeed.
+            - How long has it been?
+            - Two, three hundred years?
+            - I hope I haven't angered you...
+          - Cif:
+            - Calm down.
+            - I'm not after you.
+            - Speaking of...
+        Bee?:
+          - Cif:
+            - Have you seen Bee around here?
+          - TrueTail:
+            - Hmm, they did come here and tell me not to speak with strangers.
+            - But that was a good while ago.
+            - Have they gone missing?
+          - Cif:
+            - Don't worry about it.
+            - I'll find them eventually.
+          - TrueTail:
+            - Maybe Gor knows something?
+          - Cif:
+            - I doubt it.
+            - They're probably sleeping, as usual.
+          - TrueTail:
+            - Hmm...
+        Mon?:
+          - Cif:
+            - Was there anything else?
+          - TrueTail:
+            - I'm not sure if this is of any help to you, but...
+            - Someone else did pass by earlier.
+          - Cif:
+            - What about it?
+          - TrueTail:
+            - It was Mon.
+          - Cif:
+            - Mon?
+            - Are you certain?
+          - TrueTail:
+            - I didn't see them properly.
+            - They were groping my scales.
+            - I don't usually mind that much.
+            - Yet something about their touch made me feel uncomfortable.
+            - Like I had felt something similar before.
+            - It's certainly Mon.
+          - Cif:
+            - ...
+            - Did they talk to you?
+          - TrueTail:
+            - No, but they were muttering something.
+            - About heading towards The Seventh Circle.
+          - Cif:
+            - Lev's territory...
+          - TrueTail:
+            - You sound concerned.
+          - Cif:
+            - Mon should be dead.
+            - Lev themself killed them back then...
+            - Or so I thought.
+            - Something doesn't add up.
+            - ...
+            - Worrying does us little good.
+            - Just stay vigilant for now.
+          - TrueTail:
+            - I'll do my best...
+        Lingering:
+          - TrueTail:
+            - Good luck with your search, Cif.
+        Trapped:
+          - TrueTail:
+            - Looks like you accidentally blocked the exit.
+            - Let me help you.
+            - There you go.
